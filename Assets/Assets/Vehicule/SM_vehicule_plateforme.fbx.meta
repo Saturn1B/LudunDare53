@@ -3,7 +3,12 @@ guid: 0d2be5bdf8d107b4aa3ca188d92dbf73
 ModelImporter:
   serializedVersion: 22103
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_vehicule_roues_plateforme
+    second: {fileID: 2100000, guid: 8322d55b5f573df4ab2df4f36b9e291c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
