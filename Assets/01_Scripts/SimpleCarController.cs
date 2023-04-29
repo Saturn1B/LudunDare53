@@ -16,6 +16,12 @@ public class SimpleCarController : MonoBehaviour
     public List<AxleInfo> axleInfos;
     public float maxMotorTorque;
     public float maxSteeringAngle;
+    public Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     public void FixedUpdate()
     {
@@ -36,6 +42,17 @@ public class SimpleCarController : MonoBehaviour
             {
                 axleInfo.leftWheel.motorTorque = motor;
                 axleInfo.rightWheel.motorTorque = motor;
+            }
+
+            if ((motor > 0 && rb.velocity.z < 0) || (motor < 0 && rb.velocity.z > 0))
+            {
+                axleInfo.leftWheel.brakeTorque = 800;
+                axleInfo.rightWheel.brakeTorque = 800;
+            }
+            else
+            {
+                axleInfo.leftWheel.brakeTorque = 0;
+                axleInfo.rightWheel.brakeTorque = 0;
             }
         }
     }
