@@ -23,6 +23,6 @@ public enum ContractType
 public class BoxType
 {
     public string boxName;
-    public int numbers;
     public GameObject boxPrefab;
+    public Vector2[] boxPos;
 }
