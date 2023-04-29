@@ -19,8 +19,14 @@ public class PlatformControl : MonoBehaviour
             if (balanceX > 180)
                 balanceX -= 360;
 
-            if(balanceX > 20 || balanceX < -20)
-                return;
+            if(balanceX > 20)
+            {
+                balanceX = 20;
+            }
+            if (balanceX < -20)
+            {
+                balanceX = -20;
+            }
 
             transform.eulerAngles = new Vector3(balanceX , 0, 0);
         }
