@@ -10,10 +10,10 @@ public class ContractButton : MonoBehaviour
     public void SelectContract()
     {
         transform.parent.gameObject.SetActive(false);
-        //TO DO start game
+        GameManager.Instance.hasControl = true;
         for (int i = 0; i < boxToSpawn.Count; i++)
         {
-            GameObject box = Instantiate(boxToSpawn[i], new Vector3(placeToSpawn[i].x, placeToSpawn[i].y, 0), Quaternion.identity);
+            GameObject box = Instantiate(boxToSpawn[i], new Vector3(0, 4 + placeToSpawn[i].y, 1.5f * placeToSpawn[i].x), boxToSpawn[i].transform.rotation);
         }
     }
 }

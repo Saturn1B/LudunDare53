@@ -19,6 +19,9 @@ public class SimpleCarController : MonoBehaviour
 
     public void FixedUpdate()
     {
+        if (!GameManager.Instance.hasControl)
+            return;
+
         float motor = maxMotorTorque * Input.GetAxis("Horizontal");
         float steering = maxSteeringAngle * Input.GetAxis("Vertical");
 

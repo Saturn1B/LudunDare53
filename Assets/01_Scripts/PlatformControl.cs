@@ -10,6 +10,9 @@ public class PlatformControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!GameManager.Instance.hasControl)
+            return;
+
         float balance = Input.GetAxis("Horizontal2");
 
         if(balance != 0)
