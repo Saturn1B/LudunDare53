@@ -17,7 +17,7 @@ public class PlatformControl : MonoBehaviour
 
         if(balance != 0)
         {
-            float balanceX = transform.eulerAngles.x + balance * Time.deltaTime * balanceReactivity;
+            float balanceX = transform.localEulerAngles.x + balance * Time.deltaTime * balanceReactivity;
 
             if (balanceX > 180)
                 balanceX -= 360;
@@ -31,7 +31,7 @@ public class PlatformControl : MonoBehaviour
                 balanceX = -45;
             }
 
-            transform.eulerAngles = new Vector3(balanceX , 0, 0);
+            transform.localEulerAngles = new Vector3(balanceX , 0, 0);
         }
     }
 }
