@@ -20,6 +20,7 @@ public class ContractManager : MonoBehaviour
         {
             GameObject go = Instantiate(contractPrefab);
             go.transform.SetParent(transform);
+            go.GetComponent<ContractButton>().contract = contract;
             go.transform.GetChild(0).GetComponent<TMP_Text>().text = "Contract " + contract.contractTitle;
             go.transform.GetChild(3).GetComponent<TMP_Text>().text = "GAIN : " + contract.contractGain + "€";
             if (!contract.done)

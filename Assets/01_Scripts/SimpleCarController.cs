@@ -44,4 +44,13 @@ public class SimpleCarController : MonoBehaviour
     {
         transform.position = new Vector3(0, transform.position.y, transform.position.z);
     }
+
+    public void Brake()
+    {
+        foreach (AxleInfo axleInfo in axleInfos)
+        {
+            axleInfo.leftWheel.brakeTorque = 4000;
+            axleInfo.rightWheel.brakeTorque = 4000;
+        }
+    }
 }

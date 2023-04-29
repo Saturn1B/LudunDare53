@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,5 +20,33 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public ContractScriptable currentContract;
     public bool hasControl;
+    [SerializeField]
+    GameObject LoosePanel, WinPanel;
+
+    public void LooseGame()
+    {
+        FindObjectOfType<SimpleCarController>().Brake();
+        hasControl = false;
+        Time.timeScale = .4f;
+        currentContract = null;
+        LoosePanel.SetActive(true);
+    }
+
+    public void WinGame()
+    {
+        FindObjectOfType<SimpleCarController>().Brake();
+        hasControl = false;
+        Time.timeScale = .4f;
+        currentContract.done = true;
+        WinPanel.SetActive(true);
+        WinPanel.transform.GetChild(1).GetComponent<TMPro.TMP_Text>().text += currentContract.contractGain + "€";
+    }
+
+    public void RestartScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
