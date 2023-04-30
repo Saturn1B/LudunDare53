@@ -12,18 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
   m_Name: Contract02
   m_EditorClassIdentifier: 
-  contractTitle: '#0002'
+  contractTitle: Contract
   contractGain: 740
   contractType: 1
   boxTypes:
-  - boxName: box 1x1
+  - boxName: MOA Ore
     boxPrefab: {fileID: 6012750603347664171, guid: 23c67ac3209ed714d9a799bf7bdd5af3,
       type: 3}
     boxPos:
+    - {x: 0, y: 0}
     - {x: -1, y: 0}
-  - boxName: box 1x2
-    boxPrefab: {fileID: 7965656950947664710, guid: c0310cd40b5b8434db50cdad173601c6,
-      type: 3}
-    boxPos:
-    - {x: 1, y: 0}
   done: 0
