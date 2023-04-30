@@ -6,6 +6,8 @@ public class BoxBehaviour : MonoBehaviour
 {
     [SerializeField]
     bool AnimalBox;
+    [SerializeField]
+    bool Ammo;
 
     float waitTime;
     [SerializeField]
@@ -17,6 +19,11 @@ public class BoxBehaviour : MonoBehaviour
     {
         if (collision.transform.CompareTag("Ground"))
         {
+            //if (Ammo)
+            //{
+            //    FindObjectOfType<SimpleCarController>().gameObject.GetComponent<Rigidbody>().AddExplosionForce(100000, collision.transform.position, 100000);
+            //    transform.GetComponentInChildren<ParticleSystem>().Play();
+            //}
             GameManager.Instance.LooseGame();
         }
     }

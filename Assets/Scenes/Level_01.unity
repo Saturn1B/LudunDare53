@@ -1401,6 +1401,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 95d70209d31ff9a4cb1c3c3ae1d721cf,
         type: 2}
+    - target: {fileID: 1385331645825904142, guid: e5b46aeea0c30d84cbc04c43bf60f9e7,
+        type: 3}
+      propertyPath: contracts.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: c41b9eee458b60342821c6f89adbe355,
+        type: 2}
     - target: {fileID: 1385331646529109200, guid: e5b46aeea0c30d84cbc04c43bf60f9e7,
         type: 3}
       propertyPath: m_Name
