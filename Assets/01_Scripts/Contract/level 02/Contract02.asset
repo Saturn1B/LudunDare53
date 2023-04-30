@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
   m_Name: Contract02
   m_EditorClassIdentifier: 
-  contractTitle: Contract
+  contractTitle: 'Ore delivery : medium'
   contractGain: 740
   contractType: 1
   boxTypes:
