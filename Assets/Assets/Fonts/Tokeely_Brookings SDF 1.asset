@@ -1,0 +1,2548 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: Tokeely_Brookings SDF 1
+  m_EditorClassIdentifier: 
+  hashCode: 1782840114
+  material: {fileID: 1487152852435312068}
+  materialHashCode: -168108590
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: 6a63cb2416967b143a43c35165bd724a
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 6a63cb2416967b143a43c35165bd724a,
+    type: 3}
+  m_SourceFontFile: {fileID: 0}
+  m_AtlasPopulationMode: 0
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: Tokeely Brookings
+    m_StyleName: Regular
+    m_PointSize: 50
+    m_Scale: 1
+    m_LineHeight: 43.55
+    m_AscentLine: 35
+    m_CapLine: 25
+    m_MeanLine: 25
+    m_Baseline: 0
+    m_DescentLine: -7.5
+    m_SuperscriptOffset: 35
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -7.5
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -5
+    m_UnderlineThickness: 2.5
+    m_StrikethroughOffset: 10
+    m_StrikethroughThickness: 2.5
+    m_TabWidth: 19
+  m_GlyphTable:
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 0
+      m_Height: 0
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 18.546875
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 0
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 114
+      m_Y: 183
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 5
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 141
+      m_Y: 157
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 6
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 81
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 7
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 187
+      m_Y: 1
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 8
+    m_Metrics:
+      m_Width: 10
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 15
+    m_GlyphRect:
+      m_X: 244
+      m_Y: 157
+      m_Width: 11
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 9
+    m_Metrics:
+      m_Width: 20
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 25
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 213
+      m_Width: 21
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 10
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 107
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 11
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 141
+      m_Y: 183
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 12
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 219
+      m_Y: 1
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 13
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 133
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 14
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 159
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 15
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 185
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 16
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 211
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 17
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 47
+      m_Y: 27
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 18
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 79
+      m_Y: 27
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 19
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 111
+      m_Y: 27
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 20
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 143
+      m_Y: 27
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 21
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 175
+      m_Y: 27
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 22
+    m_Metrics:
+      m_Width: 39.5
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 44.5
+    m_GlyphRect:
+      m_X: 41
+      m_Y: 1
+      m_Width: 40
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 23
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 207
+      m_Y: 27
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 24
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 47
+      m_Y: 53
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 25
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 79
+      m_Y: 53
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 26
+    m_Metrics:
+      m_Width: 5
+      m_Height: 5
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 5
+      m_HorizontalAdvance: 10
+    m_GlyphRect:
+      m_X: 187
+      m_Y: 225
+      m_Width: 6
+      m_Height: 5
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 27
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 109
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 28
+    m_Metrics:
+      m_Width: 15.046875
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 20.046875
+    m_GlyphRect:
+      m_X: 237
+      m_Y: 131
+      m_Width: 16
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 29
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 135
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 30
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 161
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 31
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 60
+      m_Y: 157
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 32
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 156
+      m_Y: 131
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 33
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 187
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 34
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 60
+      m_Y: 183
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 35
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 87
+      m_Y: 157
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 36
+    m_Metrics:
+      m_Width: 5
+      m_Height: 17.5
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 15
+      m_HorizontalAdvance: 10
+    m_GlyphRect:
+      m_X: 209
+      m_Y: 215
+      m_Width: 6
+      m_Height: 18
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 37
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 183
+      m_Y: 131
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 38
+    m_Metrics:
+      m_Width: 5
+      m_Height: 7.5
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 5
+      m_HorizontalAdvance: 10
+    m_GlyphRect:
+      m_X: 65
+      m_Y: 246
+      m_Width: 6
+      m_Height: 8
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 39
+    m_Metrics:
+      m_Width: 15
+      m_Height: 5
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 15
+      m_HorizontalAdvance: 20
+    m_GlyphRect:
+      m_X: 170
+      m_Y: 225
+      m_Width: 16
+      m_Height: 5
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 40
+    m_Metrics:
+      m_Width: 15
+      m_Height: 15
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 20
+      m_HorizontalAdvance: 20
+    m_GlyphRect:
+      m_X: 41
+      m_Y: 239
+      m_Width: 16
+      m_Height: 15
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 41
+    m_Metrics:
+      m_Width: 5
+      m_Height: 15
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 15
+      m_HorizontalAdvance: 10
+    m_GlyphRect:
+      m_X: 58
+      m_Y: 239
+      m_Width: 6
+      m_Height: 15
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 42
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 111
+      m_Y: 53
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 43
+    m_Metrics:
+      m_Width: 29.703125
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 34.703125
+    m_GlyphRect:
+      m_X: 143
+      m_Y: 53
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 44
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 168
+      m_Y: 157
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 45
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 175
+      m_Y: 53
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 46
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 168
+      m_Y: 183
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 47
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 195
+      m_Y: 157
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 48
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 207
+      m_Y: 53
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 49
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 60
+      m_Y: 79
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 50
+    m_Metrics:
+      m_Width: 10
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 15
+    m_GlyphRect:
+      m_X: 242
+      m_Y: 183
+      m_Width: 11
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 51
+    m_Metrics:
+      m_Width: 20
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 25
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 157
+      m_Width: 21
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 52
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 92
+      m_Y: 79
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 53
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 195
+      m_Y: 183
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 54
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 124
+      m_Y: 79
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 55
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 156
+      m_Y: 79
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 56
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 188
+      m_Y: 79
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 57
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 220
+      m_Y: 79
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 58
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 60
+      m_Y: 105
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 59
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 92
+      m_Y: 105
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 60
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 124
+      m_Y: 105
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 61
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 156
+      m_Y: 105
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 62
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 188
+      m_Y: 105
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 63
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 220
+      m_Y: 105
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 64
+    m_Metrics:
+      m_Width: 39.5
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 44.5
+    m_GlyphRect:
+      m_X: 82
+      m_Y: 1
+      m_Width: 40
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 65
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 60
+      m_Y: 131
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 66
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 92
+      m_Y: 131
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 67
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 124
+      m_Y: 131
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 68
+    m_Metrics:
+      m_Width: 15.15625
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 20.15625
+    m_GlyphRect:
+      m_X: 239
+      m_Y: 27
+      m_Width: 16
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 69
+    m_Metrics:
+      m_Width: 15.15625
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 20.15625
+    m_GlyphRect:
+      m_X: 239
+      m_Y: 53
+      m_Width: 16
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 70
+    m_Metrics:
+      m_Width: 15.5
+      m_Height: 15
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25.046875
+      m_HorizontalAdvance: 20.5
+    m_GlyphRect:
+      m_X: 24
+      m_Y: 239
+      m_Width: 16
+      m_Height: 16
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 71
+    m_Metrics:
+      m_Width: 11.90625
+      m_Height: 25.046875
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25.046875
+      m_HorizontalAdvance: 16.90625
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 29
+      m_Width: 13
+      m_Height: 26
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 72
+    m_Metrics:
+      m_Width: 14.15625
+      m_Height: 21.25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 23.09375
+      m_HorizontalAdvance: 19.15625
+    m_GlyphRect:
+      m_X: 138
+      m_Y: 209
+      m_Width: 15
+      m_Height: 23
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 73
+    m_Metrics:
+      m_Width: 14.15625
+      m_Height: 21.25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 23.09375
+      m_HorizontalAdvance: 19.15625
+    m_GlyphRect:
+      m_X: 154
+      m_Y: 209
+      m_Width: 15
+      m_Height: 23
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 74
+    m_Metrics:
+      m_Width: 15
+      m_Height: 15
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 20
+      m_HorizontalAdvance: 20
+    m_GlyphRect:
+      m_X: 170
+      m_Y: 209
+      m_Width: 16
+      m_Height: 15
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 75
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 87
+      m_Y: 183
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 76
+    m_Metrics:
+      m_Width: 5
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 10
+    m_GlyphRect:
+      m_X: 55
+      m_Y: 213
+      m_Width: 6
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 77
+    m_Metrics:
+      m_Width: 12.546875
+      m_Height: 8.296875
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 17.703125
+    m_GlyphRect:
+      m_X: 187
+      m_Y: 215
+      m_Width: 14
+      m_Height: 9
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 78
+    m_Metrics:
+      m_Width: 5
+      m_Height: 8.296875
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 10
+    m_GlyphRect:
+      m_X: 202
+      m_Y: 215
+      m_Width: 6
+      m_Height: 9
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 79
+    m_Metrics:
+      m_Width: 20
+      m_Height: 20
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 22.5
+      m_HorizontalAdvance: 25
+    m_GlyphRect:
+      m_X: 82
+      m_Y: 209
+      m_Width: 21
+      m_Height: 21
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 80
+    m_Metrics:
+      m_Width: 11.90625
+      m_Height: 25.046875
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25.046875
+      m_HorizontalAdvance: 16.90625
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 56
+      m_Width: 13
+      m_Height: 26
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 81
+    m_Metrics:
+      m_Width: 14.796875
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 19.796875
+    m_GlyphRect:
+      m_X: 104
+      m_Y: 209
+      m_Width: 16
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 82
+    m_Metrics:
+      m_Width: 14.796875
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 19.796875
+    m_GlyphRect:
+      m_X: 121
+      m_Y: 209
+      m_Width: 16
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 83
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 29
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 95
+    m_Metrics:
+      m_Width: 25
+      m_Height: 5
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 5
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 187
+      m_Y: 209
+      m_Width: 26
+      m_Height: 5
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 103
+    m_Metrics:
+      m_Width: 7.953125
+      m_Height: 5
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 32.59375
+      m_HorizontalAdvance: 12.953125
+    m_GlyphRect:
+      m_X: 65
+      m_Y: 239
+      m_Width: 9
+      m_Height: 6
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 139
+    m_Metrics:
+      m_Width: 21.25
+      m_Height: 14.15625
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 26.25
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 237
+      m_Width: 22
+      m_Height: 15
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 169
+    m_Metrics:
+      m_Width: 5.15625
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 10.15625
+    m_GlyphRect:
+      m_X: 216
+      m_Y: 209
+      m_Width: 6
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 174
+    m_Metrics:
+      m_Width: 15
+      m_Height: 2.5
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: -5
+      m_HorizontalAdvance: 20
+    m_GlyphRect:
+      m_X: 62
+      m_Y: 235
+      m_Width: 16
+      m_Height: 3
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 175
+    m_Metrics:
+      m_Width: 17.703125
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 22.703125
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 183
+      m_Width: 19
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 176
+    m_Metrics:
+      m_Width: 17.703125
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 22.703125
+    m_GlyphRect:
+      m_X: 62
+      m_Y: 209
+      m_Width: 19
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 201
+    m_Metrics:
+      m_Width: 38.046875
+      m_Height: 25.296875
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25.203125
+      m_HorizontalAdvance: 43.046875
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 1
+      m_Width: 39
+      m_Height: 27
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 202
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 114
+      m_Y: 157
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 203
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 155
+      m_Y: 1
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 204
+    m_Metrics:
+      m_Width: 24.953125
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 29.953125
+    m_GlyphRect:
+      m_X: 33
+      m_Y: 83
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 214
+    m_Metrics:
+      m_Width: 30
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 35
+    m_GlyphRect:
+      m_X: 123
+      m_Y: 1
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 398
+    m_Metrics:
+      m_Width: 29.703125
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 34.703125
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 55
+      m_Width: 31
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 399
+    m_Metrics:
+      m_Width: 25
+      m_Height: 25
+      m_HorizontalBearingX: 2.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 30
+    m_GlyphRect:
+      m_X: 210
+      m_Y: 131
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 32
+    m_GlyphIndex: 3
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 33
+    m_GlyphIndex: 76
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 34
+    m_GlyphIndex: 77
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 35
+    m_GlyphIndex: 79
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 36
+    m_GlyphIndex: 83
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 37
+    m_GlyphIndex: 201
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 38
+    m_GlyphIndex: 204
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 39
+    m_GlyphIndex: 78
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 40
+    m_GlyphIndex: 68
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 41
+    m_GlyphIndex: 69
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 42
+    m_GlyphIndex: 70
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 43
+    m_GlyphIndex: 40
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 44
+    m_GlyphIndex: 38
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 45
+    m_GlyphIndex: 39
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 46
+    m_GlyphIndex: 26
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 47
+    m_GlyphIndex: 71
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 48
+    m_GlyphIndex: 27
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 49
+    m_GlyphIndex: 28
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 50
+    m_GlyphIndex: 29
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 51
+    m_GlyphIndex: 30
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 52
+    m_GlyphIndex: 31
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 53
+    m_GlyphIndex: 32
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 54
+    m_GlyphIndex: 33
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 55
+    m_GlyphIndex: 34
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 56
+    m_GlyphIndex: 35
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 57
+    m_GlyphIndex: 37
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 58
+    m_GlyphIndex: 41
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 59
+    m_GlyphIndex: 36
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 60
+    m_GlyphIndex: 72
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 61
+    m_GlyphIndex: 74
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 62
+    m_GlyphIndex: 73
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 63
+    m_GlyphIndex: 75
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 64
+    m_GlyphIndex: 202
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 65
+    m_GlyphIndex: 214
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 66
+    m_GlyphIndex: 398
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 67
+    m_GlyphIndex: 399
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 68
+    m_GlyphIndex: 203
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 69
+    m_GlyphIndex: 4
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 70
+    m_GlyphIndex: 5
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 71
+    m_GlyphIndex: 6
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 72
+    m_GlyphIndex: 7
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 73
+    m_GlyphIndex: 8
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 74
+    m_GlyphIndex: 9
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 75
+    m_GlyphIndex: 10
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 76
+    m_GlyphIndex: 11
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 77
+    m_GlyphIndex: 12
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 78
+    m_GlyphIndex: 13
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 79
+    m_GlyphIndex: 14
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 80
+    m_GlyphIndex: 15
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 81
+    m_GlyphIndex: 16
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 82
+    m_GlyphIndex: 17
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 83
+    m_GlyphIndex: 18
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 84
+    m_GlyphIndex: 19
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 85
+    m_GlyphIndex: 20
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 86
+    m_GlyphIndex: 21
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 87
+    m_GlyphIndex: 22
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 88
+    m_GlyphIndex: 23
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 89
+    m_GlyphIndex: 24
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 90
+    m_GlyphIndex: 25
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 91
+    m_GlyphIndex: 81
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 92
+    m_GlyphIndex: 80
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 93
+    m_GlyphIndex: 82
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 94
+    m_GlyphIndex: 139
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 95
+    m_GlyphIndex: 174
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 96
+    m_GlyphIndex: 103
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 97
+    m_GlyphIndex: 42
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 98
+    m_GlyphIndex: 43
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 99
+    m_GlyphIndex: 44
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 100
+    m_GlyphIndex: 45
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 101
+    m_GlyphIndex: 46
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 102
+    m_GlyphIndex: 47
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 103
+    m_GlyphIndex: 48
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 104
+    m_GlyphIndex: 49
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 105
+    m_GlyphIndex: 50
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 106
+    m_GlyphIndex: 51
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 107
+    m_GlyphIndex: 52
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 108
+    m_GlyphIndex: 53
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 109
+    m_GlyphIndex: 54
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 110
+    m_GlyphIndex: 55
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 111
+    m_GlyphIndex: 56
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 112
+    m_GlyphIndex: 57
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 113
+    m_GlyphIndex: 58
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 114
+    m_GlyphIndex: 59
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 115
+    m_GlyphIndex: 60
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 116
+    m_GlyphIndex: 61
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 117
+    m_GlyphIndex: 62
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 118
+    m_GlyphIndex: 63
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 119
+    m_GlyphIndex: 64
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 120
+    m_GlyphIndex: 65
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 121
+    m_GlyphIndex: 66
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 122
+    m_GlyphIndex: 67
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 123
+    m_GlyphIndex: 175
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 124
+    m_GlyphIndex: 169
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 125
+    m_GlyphIndex: 176
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 8230
+    m_GlyphIndex: 95
+    m_Scale: 1
+  m_AtlasTextures:
+  - {fileID: 622550264040083980}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
+  m_UsedGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 40
+    m_Height: 28
+  - m_X: 40
+    m_Y: 0
+    m_Width: 41
+    m_Height: 26
+  - m_X: 81
+    m_Y: 0
+    m_Width: 41
+    m_Height: 26
+  - m_X: 0
+    m_Y: 28
+    m_Width: 32
+    m_Height: 26
+  - m_X: 122
+    m_Y: 0
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 54
+    m_Width: 32
+    m_Height: 26
+  - m_X: 154
+    m_Y: 0
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 80
+    m_Width: 32
+    m_Height: 26
+  - m_X: 186
+    m_Y: 0
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 106
+    m_Width: 32
+    m_Height: 26
+  - m_X: 218
+    m_Y: 0
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 132
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 158
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 184
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 210
+    m_Width: 32
+    m_Height: 26
+  - m_X: 0
+    m_Y: 236
+    m_Width: 23
+    m_Height: 16
+  - m_X: 32
+    m_Y: 28
+    m_Width: 14
+    m_Height: 27
+  - m_X: 46
+    m_Y: 26
+    m_Width: 32
+    m_Height: 26
+  - m_X: 78
+    m_Y: 26
+    m_Width: 32
+    m_Height: 26
+  - m_X: 110
+    m_Y: 26
+    m_Width: 32
+    m_Height: 26
+  - m_X: 142
+    m_Y: 26
+    m_Width: 32
+    m_Height: 26
+  - m_X: 174
+    m_Y: 26
+    m_Width: 32
+    m_Height: 26
+  - m_X: 206
+    m_Y: 26
+    m_Width: 32
+    m_Height: 26
+  - m_X: 238
+    m_Y: 26
+    m_Width: 17
+    m_Height: 26
+  - m_X: 32
+    m_Y: 55
+    m_Width: 14
+    m_Height: 27
+  - m_X: 46
+    m_Y: 52
+    m_Width: 32
+    m_Height: 26
+  - m_X: 78
+    m_Y: 52
+    m_Width: 32
+    m_Height: 26
+  - m_X: 110
+    m_Y: 52
+    m_Width: 32
+    m_Height: 26
+  - m_X: 142
+    m_Y: 52
+    m_Width: 32
+    m_Height: 26
+  - m_X: 174
+    m_Y: 52
+    m_Width: 32
+    m_Height: 26
+  - m_X: 206
+    m_Y: 52
+    m_Width: 32
+    m_Height: 26
+  - m_X: 238
+    m_Y: 52
+    m_Width: 17
+    m_Height: 26
+  - m_X: 32
+    m_Y: 82
+    m_Width: 27
+    m_Height: 26
+  - m_X: 59
+    m_Y: 78
+    m_Width: 32
+    m_Height: 26
+  - m_X: 91
+    m_Y: 78
+    m_Width: 32
+    m_Height: 26
+  - m_X: 123
+    m_Y: 78
+    m_Width: 32
+    m_Height: 26
+  - m_X: 155
+    m_Y: 78
+    m_Width: 32
+    m_Height: 26
+  - m_X: 187
+    m_Y: 78
+    m_Width: 32
+    m_Height: 26
+  - m_X: 219
+    m_Y: 78
+    m_Width: 32
+    m_Height: 26
+  - m_X: 32
+    m_Y: 108
+    m_Width: 27
+    m_Height: 26
+  - m_X: 59
+    m_Y: 104
+    m_Width: 32
+    m_Height: 26
+  - m_X: 91
+    m_Y: 104
+    m_Width: 32
+    m_Height: 26
+  - m_X: 123
+    m_Y: 104
+    m_Width: 32
+    m_Height: 26
+  - m_X: 155
+    m_Y: 104
+    m_Width: 32
+    m_Height: 26
+  - m_X: 187
+    m_Y: 104
+    m_Width: 32
+    m_Height: 26
+  - m_X: 219
+    m_Y: 104
+    m_Width: 32
+    m_Height: 26
+  - m_X: 32
+    m_Y: 134
+    m_Width: 27
+    m_Height: 26
+  - m_X: 59
+    m_Y: 130
+    m_Width: 32
+    m_Height: 26
+  - m_X: 91
+    m_Y: 130
+    m_Width: 32
+    m_Height: 26
+  - m_X: 123
+    m_Y: 130
+    m_Width: 32
+    m_Height: 26
+  - m_X: 32
+    m_Y: 160
+    m_Width: 27
+    m_Height: 26
+  - m_X: 59
+    m_Y: 156
+    m_Width: 27
+    m_Height: 26
+  - m_X: 155
+    m_Y: 130
+    m_Width: 27
+    m_Height: 26
+  - m_X: 32
+    m_Y: 186
+    m_Width: 27
+    m_Height: 26
+  - m_X: 59
+    m_Y: 182
+    m_Width: 27
+    m_Height: 26
+  - m_X: 86
+    m_Y: 156
+    m_Width: 27
+    m_Height: 26
+  - m_X: 182
+    m_Y: 130
+    m_Width: 27
+    m_Height: 26
+  - m_X: 86
+    m_Y: 182
+    m_Width: 27
+    m_Height: 26
+  - m_X: 113
+    m_Y: 156
+    m_Width: 27
+    m_Height: 26
+  - m_X: 209
+    m_Y: 130
+    m_Width: 27
+    m_Height: 26
+  - m_X: 113
+    m_Y: 182
+    m_Width: 27
+    m_Height: 26
+  - m_X: 140
+    m_Y: 156
+    m_Width: 27
+    m_Height: 26
+  - m_X: 140
+    m_Y: 182
+    m_Width: 27
+    m_Height: 26
+  - m_X: 167
+    m_Y: 156
+    m_Width: 27
+    m_Height: 26
+  - m_X: 167
+    m_Y: 182
+    m_Width: 27
+    m_Height: 26
+  - m_X: 194
+    m_Y: 156
+    m_Width: 27
+    m_Height: 26
+  - m_X: 194
+    m_Y: 182
+    m_Width: 27
+    m_Height: 26
+  - m_X: 32
+    m_Y: 212
+    m_Width: 22
+    m_Height: 26
+  - m_X: 236
+    m_Y: 130
+    m_Width: 17
+    m_Height: 26
+  - m_X: 221
+    m_Y: 156
+    m_Width: 22
+    m_Height: 26
+  - m_X: 243
+    m_Y: 156
+    m_Width: 12
+    m_Height: 26
+  - m_X: 221
+    m_Y: 182
+    m_Width: 20
+    m_Height: 26
+  - m_X: 23
+    m_Y: 238
+    m_Width: 17
+    m_Height: 17
+  - m_X: 241
+    m_Y: 182
+    m_Width: 12
+    m_Height: 26
+  - m_X: 54
+    m_Y: 212
+    m_Width: 7
+    m_Height: 26
+  - m_X: 61
+    m_Y: 208
+    m_Width: 20
+    m_Height: 26
+  - m_X: 81
+    m_Y: 208
+    m_Width: 22
+    m_Height: 22
+  - m_X: 103
+    m_Y: 208
+    m_Width: 17
+    m_Height: 26
+  - m_X: 120
+    m_Y: 208
+    m_Width: 17
+    m_Height: 26
+  - m_X: 137
+    m_Y: 208
+    m_Width: 16
+    m_Height: 24
+  - m_X: 153
+    m_Y: 208
+    m_Width: 16
+    m_Height: 24
+  - m_X: 40
+    m_Y: 238
+    m_Width: 17
+    m_Height: 16
+  - m_X: 169
+    m_Y: 208
+    m_Width: 17
+    m_Height: 16
+  - m_X: 186
+    m_Y: 208
+    m_Width: 27
+    m_Height: 6
+  - m_X: 186
+    m_Y: 214
+    m_Width: 15
+    m_Height: 10
+  - m_X: 169
+    m_Y: 224
+    m_Width: 17
+    m_Height: 6
+  - m_X: 61
+    m_Y: 234
+    m_Width: 17
+    m_Height: 4
+  - m_X: 57
+    m_Y: 238
+    m_Width: 7
+    m_Height: 16
+  - m_X: 201
+    m_Y: 214
+    m_Width: 7
+    m_Height: 10
+  - m_X: 64
+    m_Y: 238
+    m_Width: 10
+    m_Height: 7
+  - m_X: 64
+    m_Y: 245
+    m_Width: 7
+    m_Height: 9
+  - m_X: 208
+    m_Y: 214
+    m_Width: 7
+    m_Height: 19
+  - m_X: 215
+    m_Y: 208
+    m_Width: 7
+    m_Height: 26
+  - m_X: 186
+    m_Y: 224
+    m_Width: 7
+    m_Height: 6
+  m_FreeGlyphRects:
+  - m_X: 40
+    m_Y: 26
+    m_Width: 6
+    m_Height: 2
+  - m_X: 250
+    m_Y: 0
+    m_Width: 5
+    m_Height: 26
+  - m_X: 46
+    m_Y: 78
+    m_Width: 13
+    m_Height: 4
+  - m_X: 251
+    m_Y: 78
+    m_Width: 4
+    m_Height: 52
+  - m_X: 253
+    m_Y: 78
+    m_Width: 2
+    m_Height: 78
+  - m_X: 0
+    m_Y: 252
+    m_Width: 23
+    m_Height: 3
+  - m_X: 23
+    m_Y: 236
+    m_Width: 9
+    m_Height: 2
+  - m_X: 253
+    m_Y: 182
+    m_Width: 2
+    m_Height: 73
+  - m_X: 59
+    m_Y: 208
+    m_Width: 2
+    m_Height: 4
+  - m_X: 81
+    m_Y: 230
+    m_Width: 22
+    m_Height: 25
+  - m_X: 40
+    m_Y: 254
+    m_Width: 215
+    m_Height: 1
+  - m_X: 78
+    m_Y: 234
+    m_Width: 177
+    m_Height: 21
+  - m_X: 74
+    m_Y: 238
+    m_Width: 181
+    m_Height: 17
+  - m_X: 71
+    m_Y: 245
+    m_Width: 184
+    m_Height: 10
+  - m_X: 137
+    m_Y: 232
+    m_Width: 71
+    m_Height: 23
+  - m_X: 169
+    m_Y: 230
+    m_Width: 39
+    m_Height: 25
+  - m_X: 137
+    m_Y: 233
+    m_Width: 78
+    m_Height: 22
+  - m_X: 213
+    m_Y: 208
+    m_Width: 2
+    m_Height: 6
+  - m_X: 222
+    m_Y: 208
+    m_Width: 33
+    m_Height: 47
+  - m_X: 193
+    m_Y: 224
+    m_Width: 15
+    m_Height: 31
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 256
+  m_AtlasHeight: 256
+  m_AtlasPadding: 0
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
+  m_FallbackFontAssetTable: []
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: 6a63cb2416967b143a43c35165bd724a
+    pointSizeSamplingMode: 0
+    pointSize: 50
+    padding: 0
+    packingMode: 4
+    atlasWidth: 256
+    atlasHeight: 256
+    characterSetSelectionMode: 0
+    characterSequence: 32 - 126, 160, 8203, 8230, 9633
+    referencedFontAssetGUID: 
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
+--- !u!28 &622550264040083980
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tokeely_Brookings SDF 1 Atlas
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 256
+  m_Height: 256
+  m_CompleteImageSize: 65536
+  m_MipsStripped: 0
+  m_TextureFormat: 1
+  m_MipCount: 1
+  m_IsReadable: 0
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 65536
+  _typelessdata: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e404040400900000000000000000000000000434c4c4c4c4c4c4c4c4c4c4c4c4500000000000000000000001a94ffffffdf64000000000000002ba6ffffffffd95e000000000000000000000000000000000000001a94ffffffdf64000000000000002ba6ffffffffd95e0000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb278000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000408dbfbfbfbf8709000000000000000000000063c5cbcbcbcbcbcbcbcbcbcbcbcbc76b0000000000000000000050c5ffffffff921300000000000059d7ffffffffff8c0d00000000000000000000000000000000000050c5ffffffff921300000000000059d7ffffffffff8c0d00000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde640080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000000318fffffffff82030000000000000000000079f9fffffffff3f3f3f3ffffffffff850000000000000000000080ffffffffffc14b00000000000585ffffffffffffbb4400000000000000000000000000000000000080ffffffffffc14b00000000000585ffffffffffffbb4400000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000000003593fffffffc7d000000000000000000007af9ffffff987474747491ffffffff860000000000000000003aaffffffffffff97a000000000036b0fffffffffffff27300000000000000000000000000000000003aaffffffffffff97a000000000036b0fffffffffffff27300000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000000000000000000003a97fffffff7790000000000000000007af9ffffff86060000007af9ffffff8600000000000000000068e6ffffffffffffab350000000061dfffffffffffffffa4260000000000000000000000000000000068e6ffffffffffffab350000000061dfffffffffffffffa426000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000000000003f9bffffffd27500000000000000007af9ffffff86060000007af9ffffff8600000000000000001a98ffffffffffffffe0620000000d8cffffffffffffffffd95b0000000000000000000000000000001a98ffffffffffffffe0620000000d8cffffffffffffffffd95b000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000000000000043a0ffffffce71000000000000007af9ffffff86060000007af9ffffff86000000000000000050c5ffffffffffffffff931500003fb6ffffffffffffffffff8c0d000000000000000000000000000050c5ffffffffffffffff931500003fb6ffffffffffffffffff8c0d0000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000000000000000047a4ffffffca6d0000000000007af9ffffff86060000007af9ffffff86000000000000000080ffffffffffffffffffc24c000068e7ffffffffffffffffffbb44000000000000000000000000000080ffffffffffffffffffc24c000068e7ffffffffffffffffffbb440000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000550000000080ffffffffffffffffff800000000000000000000000000000000000004ca8ffffffc66900000000007af9ffffff86060000007af9ffffff86000000000000003aaffffffffffffffffffffb7c001593fffffffffffffffffffff273000000000000000000000000003aaffffffffffffffffffffb7c001593fffffffffffffffffffff2730000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000005cba5c00000080ffffffffffffffffff800000000000000000000000000000000000000050acffffffc264000000007af9ffffff86060000007af9ffffff860000000000000068e6ffffffffffffffffffffac3044bdffffffffffffffffffffffa42600000000000000000000000068e6ffffffffffffffffffffac3044bdffffffffffffffffffffffa42600000000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff80000037a3ffa337000080ffffffffffffffffff80000000000000000000000000000000000000000054b1ffffffbd600000007af9ffffff894d4c4c4d80ffffffff860000000000001a98ffffffffffffffffffffffe26872eeffffffffffffffffffffffd95b00000000000000000000001a98ffffffffffffffffffffffe26872eeffffffffffffffffffffffd95b00000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff8000007efefffd7e000080ffffffffffffffffff8000000000000000000000000000000000000000000058b5ffffffb95c00007af9ffffffffcbcbcbcbffffffffff8600000000000050c5ffffffffffffffffffffffff9397ffffffffffffffffffffffffff8c0d0000000000000000000050c5ffffffffffffffffffffffff9397ffffffffffffffffffffffffff8c0d000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80005ac5ffffffc55a0080ffffffffffffffffff80000000000000000000000000000000000000000000005dbaffffffb458006fe9f3f3f3f3f3f3f3f3f3f3f3f3eb7900000000000080ffffffffffffffffffb2ffffffc5c8ffffffbebcffffffffffffffffbb440000000000000000000080ffffffffffffffffffb2ffffffc5c8ffffffbebcffffffffffffffffbb44000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff803aa2ffffffffffa23880ffffffffffffffffff800000000000000000606666666666666666666666665f0061beffffffb053316b7474747474747474747474746d3500000000003aafffffffffffffffffca5bc8ffffffffffffff8f8afffffffffffffffff2730000000000000000003aafffffffffffffffffca5bc8ffffffffffffff8f8afffffffffffffffff273000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff807dfcfffffffffffc7d80ffffffffffffffffff800000000000000071dde5e5e5e5e5e5e5e5e5e5e5e5dc700065c2ffffffac4f000000000000000000000000000000000000000068e6ffffffffffffffff971994ffffffffffffe76b5ed9ffffffffffffffffa426000000000000000068e6ffffffffffffffff971994ffffffffffffe76b5ed9ffffffffffffffffa4260000000080ffffffffffffffffffffcbcbcbcbcbcbcbcbcbffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff93c4ffffffffffffffc493ffffffffffffffffff800000000000000080ffffffffffd9d9d9d9ffffffffff8000006ac6ffffffa84b0000000000000000000000000000000000001a98ffffffffffffffffe5670062e0ffffffffffb83f27a4ffffffffffffffffd95b000000000000001a98ffffffffffffffffe5670062e0ffffffffffb83f27a4ffffffffffffffffd95b0000000080ffffffffffffffffff854d4c4c4c4c4c4c4c4d85ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000080ffffffff8a5c5a5a5c8affffffff800000006eccffffffa446000000000000000000000000000000000050c5ffffffffffffffffaf3a002ba8ffffffffff8f100074f3ffffffffffffffff8c0d00000000000050c5ffffffffffffffffaf3a002ba8ffffffffff8f100074f3ffffffffffffffff8c0d00000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000080ffffffff800000000080ffffffff800000000072d2ffffff9f420000000000000000000000000000000080ffffffffffffffffff7f00000076f5ffffffe364000044bbffffffffffffffffbb4400000000000080ffffffffffffffffff7f00000076f5ffffffe364000044bbffffffffffffffffbb4400000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffa6ffffffffffffffffffffffffffff800000000000000080ffffffff800000000080ffffffff80000000000076f3ffffff9b3f00000000000000000000000000003aafffffffffffffffffc55000000045bbffffffb43d00000d8cfffffffffffffffff27300000000003aafffffffffffffffffc55000000045bbffffffb43d00000d8cfffffffffffffffff27300000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffa043a0ffffffffffffffffffffffffff800000000000000080ffffffff800000000080ffffffff800000000000007bf8ffffff973a0000000000000000000000000068e6ffffffffffffffff97190000000b8affffff8b0c0000005bd9ffffffffffffffffa4260000000068e6ffffffffffffffff97190000000b8affffff8b0c0000005bd9ffffffffffffffffa426000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffc5590059c5ffffffffffffffffffffffff800000000000000080ffffffff800000000080ffffffff80000000000000007fffffffff933500000000000000000000001a98ffffffffffffffffe567000000000057d5ffdf600000000027a4ffffffffffffffffd95b0000001a98ffffffffffffffffe567000000000057d5ffdf600000000027a4ffffffffffffffffd95b000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080fffffffffffffffffffffffd7e0000007efdffffffffffffffffffffff800000000000000080ffffffff800000000080ffffffff80000000000000000583ffffffff8e310000000000000000000050c5ffffffffffffffffaf3a0000000000219fffb139000000000074f3ffffffffffffffff8c0d000050c5ffffffffffffffffaf3a0000000000219fffb139000000000074f3ffffffffffffffff8c0d0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffa23700000037a2ffffffffffffffffffffff800000000000000080ffffffff800000000080ffffffff8000000000000000000b88ffffffff8a2d00000000000000000080ffffffffffffffffff7f000000000000006ceb8708000000000044bbffffffffffffffffbb44000080ffffffffffffffffff7f000000000000006ceb8708000000000044bbffffffffffffffffbb44007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffc75a00000000005ac7ffffffffffffffffffff800000000000000080ffffffff8f676666678fffffffff800000000000000000002d8cffffffff86090000000000000038afffffffffffffffffc550000000000000003bb15f0000000000000d8cfffffffffffffffff2730038afffffffffffffffffc550000000000000003bb15f0000000000000d8cfffffffffffffffff2730062ddffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080fffffffffffffffffffe7f000000000000007fffffffffffffffffffff80000000000000007fffffffffffe5e5e5e5ffffffffff7f000000000000000000003390ffffffff82030000000000006be6ffffffffffffffff941900000000000000007000000000000000005ed9ffffffffffffffffa1006be6ffffffffffffffff941900000000000000007000000000000000005ed9ffffffffffffffffa1000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffb176000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb176000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffa3360000000000000038a3ffffffffffffffffff80000000000000006bd1d9d9d9d9d9d9d9d9d9d9d9d9d06a00000000000000000000003796c5c5c5c57d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000545a5a5a5a5a5a5a5a5a5a5a5a530000000000000000000000000034464646464100000000000000000000000080ffffffffffffffffff800000000000000000108cffffffffffffffffef730080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb27800000000000000000000000080ffffffffffffffffff800000000000000000000000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb27800000000000000000000001a94ffffffffffffffffff941a0000000000000000000053bbffffffffffffffffa8430000000000000043a8ffffffffffffffffbb5500007ab3ffffffffffffffffffffffff9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000030afffffffffffffffffcf4f0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde64000000000000000000000080ffffffffffffffffff80000000000000000000000065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde620000000000000000000050c5ffffffffffffffffffc55000000000000000000000006bd1ffffffffffffffff942e00000000002e94ffffffffffffffffd16b000063dfffffffffffffffffffffffffff94000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb278000070eeffffffa72b0000000000000080ffffffffffffffffff80000000000000000051cfffffffffffffffffae300080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c000000000000000000000080ffffffffffffffffff8000000000000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0000000000000000000080ffffffffffffffffffffff7f00000000000000000000000080ffffffffffffffffff7f000000000080ffffffffffffffffff7f0000007dfcffffffffffffffffffffffffff93000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde64004eccffffffcd4e0000000000000080ffffffffffffffffff80000000000000000071f0ffffffffffffffff8f100080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000000003aafffffffffffffffffffffffaf3a00000000000000000000002e94ffffffffffffffffd16b0000006cd1ffffffffffffffff932e00000080ffffffffffffffffffffffffffff94000080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c002ba9ffffffef700000000000000080ffffffffffffffffff80000000000000001190ffffffffffffffffef70000080bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff8000000000000000000068e6ffffffffffffffffffffffe56700000000000000000000000043a8ffffffffffffffffbc570058bcffffffffffffffffa7430000000080ffffffffffffffffffffbfbfbfbf92000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000888ffffffff911200000000000080ffffffffffffffffff800000000000000030afffffffffffffffffcf500000004040404040404040404040404040404040404080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff8000000000000000001a98ffffffffffffffffffffffffff971900000000000000000000000058bcffffffffffffffffa74ea8ffffffffffffffffbc57000000000080ffffffffffffffffff804040404014000080bfbfbfbfbfbfbfbfbfbfbfd3ffffffffdabfbfffffffffffffffffffff80000066e5ffffffb23400000000000080ffffffffffffffffff800000000000000051cfffffffffffffffffae300000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000050c5ffffffffffffffffffffffffffc550000000000000000000000000006bd1ffffffffffffffffb9ffffffffffffffffd16b00000000000080ffffffffffffffffff800000000000000000404040404040404040404058d3ffffffb3404080ffffffffffffffffff80000046c0ffffffd55700000000000080ffffffffffffffffff800000000000000071f0ffffffffffffffff8f100000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000080ffffffffffffffffffffffffffffff7f000000000000000000000000000080ffffffffffffffffffffffffffffffffff7f0000000000000080ffffffffffffffffff800000000000000000000000000000000000000054d3ffffffb4340080ffffffffffffffffff80000022a0fffffff87800000000000080ffffffffffffffffff800000000000001190ffffffffffffffffef70000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000003aafffffffffffffffffffffffffffffffaf3a000000000000000000000000002e94ffffffffffffffffffffffffffffff932e0000000000000080ffffffffffffffffff800000000000000000000000000000000000000054d3ffffffb4340080ffffffffffffffffff800000007ffeffffff9a1b000000000080ffffffffffffffffff8040404040404040adffffffffffffffffcf52000000000034404040404040404040404040404040404080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000068e6ffffffffffffffffffffffffffffffe567000000000000000000000000000043a8ffffffffffffffffffffffffffa743000000000000000080ffffffffffffffffff800000000000000000000000000000000000000054d3ffffffb4340080ffffffffffffffffff800000005edcffffffba3f000000000080ffffffffffffffffffffbfbfbfbfbfbfbfdaffffffffffffffffffb2780000007ab3bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000001a98ffffffffffffffffffffffffffffffffff9719000000000000000000000000000058bcffffffffffffffffffffffbc5700000000000000000080ffffffffffffffffff800000000000000000003440404040404040404058d3ffffffb3404080ffffffffffffffffff800000003eb8ffffffde60000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde640064dfffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000050c5ffffffffffffffffffffffffffffffffffc5500000000000000000000000000000006ad0ffffffffffffffffffd06a0000000000000000000080ffffffffffffffffff8000000000000000007ab3bfbfbfbfbfbfbfbfbfd3ffffffffdabfbfffffffffffffffffffff800000001998ffffffff81020000000080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffffb3ffffffffffffffffff7f0000000000000000000000000000001a99ffffffffffffffffff991a0000000000000000000080ffffffffffffffffff800000000000000064dfffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000076f5ffffffa2240000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf61000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000003aafffffffffffffffffca5ccaffffffffffffffffaf3a00000000000000000000000000006bd0ffffffffffffffffffd06a0000000000000000000080ffffffffffffffffff80000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0000000055d3ffffffc2480000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfb17600000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000068e6ffffffffffffffff971a98ffffffffffffffffe5670000000000000000000000000058bcffffffffffffffffffffffbc5700000000000000000080ffffffffffffffffff800000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf610000000031b0ffffffe7680000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040404040330000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000001a98ffffffffffffffffe5670068e6ffffffffffffffff9719000000000000000000000043a8ffffffffffffffffffffffffffa743000000000000000080ffffffffffffffffff800000000000000080ffffffffffffffffffffbfd3ffffffffdabfbfbfbfbfbfbfbfbfbfb1760000000000108fffffffff8a0b00000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000050c5ffffffffffffffffaf3a003aafffffffffffffffffc550000000000000000000002e94ffffffffffffffffffffffffffffff942e0000000000000080ffffffffffffffffff800000000000000080ffffffffffffffffff804058d3ffffffb34040404040404040404033000000000000006decffffffab2d00000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000080ffffffffffffffffff7f00000080ffffffffffffffffff7f0000000000000000000080ffffffffffffffffffffffffffffffffff7f0000000000000080ffffffffffffffffff800000000000000080ffffffffffffffffff800054d3ffffffb43400000000000000000000000000000000004cc6ffffffce5000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000003aafffffffffffffffffc55000000050c5ffffffffffffffffaf3a00000000000000006cd1ffffffffffffffffb9ffffffffffffffffd16b00000000000080ffffffffffffffffff800000000000000080ffffffffffffffffff800054d3ffffffb434000000000000000000000000000000000029a7fffffff07100000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040404040404000000040404040404040404080ffffffffffffffffff80404040404040404040000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000068e6ffffffffffffffff97190000001a98ffffffffffffffffe5670000000000000058bcffffffffffffffffa74ea8ffffffffffffffffbc57000000000080ffffffffffffffffff804040404014000080ffffffffffffffffff800054d3ffffffb43400000000000000000000000000000000000786ffffffff9314000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080bfbfbfbfbfbfbfbfbfffffffffffffffffffffffbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000001a98ffffffffffffffffe567000000000068e6ffffffffffffffff9719000000000043a8ffffffffffffffffbc570058bcffffffffffffffffa7430000000080ffffffffffffffffffffbfbfbfbf93000080ffffffffffffffffff804058d3ffffffb34040404040404040404040400000000000000064e3ffffffb439000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000050c5ffffffffffffffffaf3a00000000003aafffffffffffffffffc550000000002e94ffffffffffffffffd16b0000006bd1ffffffffffffffff942e00000080ffffffffffffffffffffffffffff94000080ffffffffffffffffffffbfd3ffffffffdabfbfbfbfbfbfbfbfbfbfbfbf8000000000000044bfffffffd759000080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c007dfcffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000080ffffffffffffffffff7f0000000000000080ffffffffffffffffff7f0000000080ffffffffffffffffff7f000000000080ffffffffffffffffff7f0000007dfcffffffffffffffffffffffffff94000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000209ffffffff97a000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620063ddffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800038afffffffffffffffffc5500000000000000050c5ffffffffffffffffaf3900006cd1ffffffffffffffff932e00000000002e94ffffffffffffffffd16b000062ddffffffffffffffffffffffffff9400007dfcffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000007dfdffffff9c1d0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb17600000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80006ae6ffffffffffffffff9419000000000000001a95ffffffffffffffffe5670056bbffffffffffffffffa8430000000000000043a8ffffffffffffffffbb53000078b1ffffffffffffffffffffffff90000063ddffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000005cdaffffffbc41000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000033b9c5c5c5c563000000000000000000000080ffffffffffffffffff80000000000000000000000057c4ffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffbfa661000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb2780000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb278000080ffffffffffffffffffffffffb786320000000000000000000000000000000000000000000000000000000000000000000000000000000000404646464536000000000000000000000080ffffffffffffffffff800000000000000000000000007af8ffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffb33b0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde640065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde620080fffffffffffffffffffffffffff276000080ffffffffffffffffffffffffffffffffffffffffffffffffffffbfa661000000000000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000002e99ffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd6570080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffffffffffffff90000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffb33b0000000000000033b7ffffffe265000000000000000000000080ffffffffffffffffff80000000000000000000000000004fb7ffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd95a0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffff94000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd657000000000000005ad9ffffffbd43000000000000000000000080ffffffffffffffffff8000000000000000000000000000006de9ffffffffffffffffffffffffc3bfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffd95a0080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080bfbfbfbfebffffffffffffffffff94000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd95a000000000000007cfbffffff9d1e000000000000000000000080ffffffffffffffffff800000000000000000000000000000108dffffffffffffffffffffffa83b404040404040404040404040000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a0080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff8000004040404070ebffffffffffffffff93000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffd95a0000000000001e9dfffffffb7b00000000000000000000000080ffffffffffffffffff8000000000000000000000000000000043acffffffffffffffffffffff85060000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000006cebffffffffffffffff93000080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a00000000000042bdffffffd95a00000000000000000000000080ffffffffffffffffff800000000000000000000000000000000061cbffffffffffffffffffffd1650000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000006cebffffffffffffffff94000080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a00000000000063e2ffffffb53b00000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000281ffffffffffffffffffffffaf4600000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000006cebffffffffffffffff94000080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a00000000000585ffffffff941500000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000036a0ffffffffffffffffffffff9013000000000000000000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000006cebffffffffffffffff94000080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a000000000027a6fffffff2730000000000000000000000000080ffffffffffffffffff8000000000000000000000000000000000000056bfffffffffffffffffffffec6f000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffcd4f0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000006cebffffffffffffffff94000080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a00000000004bc6ffffffd0510000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000000075f2ffffffffffffffffffffb9500000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffff8a0c0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000006cebffffffffffffffff94000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffcd4f00000000006cebffffffad2e0000000000000000000000000d8cffffffffffffffffff8c0d0000000000000000000000000000000000001894ffffffffffffffffffffff9a2e00000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffff9141000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000065808080808080808080600000000000006cebffffffffffffffff94000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffff8a0c000000000e8dffffffff8b0c0000000000000000000000006bd1ffffffffffffffffffd16b0000000000000000000000000000000000000049b2fffffffffffffffffffff87a00000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffff8c0f0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000000006cebffffffffffffffff94000080ffffffffffffffffffffffffffffffffffffffffffffffffffffff9141000000000030afffffffe96a00000000000000000000000058bcffffffffffffffffffffffbc570000000000000000000000000000000000000068e4ffffffffffffffffffffc45a000000000000000080ffffffffffffffffffffcbcbcbcbcbcbcbcbcbffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffcd4f0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000000006cebffffffffffffffff94000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffff8c0f0000000053d2ffffffc449000000000000000000000043a8ffffffffffffffffffffffffffa7430000000000000000000000000000000000000a88ffffffffffffffffffffffa53b0000000000000080ffffffffffffffffff854d4c4c4c4c4c4c4c4d85ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000000006cebffffffffffffffff94000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffcd4f0000000075f4ffffffa425000000000000000000002e94ffffffffffffffffffffffffffffff942e0000000000000000000000000000000000003ea7ffffffffffffffffffffff850600000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000000006cebffffffffffffffff94000080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a0000001796ffffffff83030000000000000000000080ffffffffffffffffffffffffffffffffff7f000000000000000000000000000000000000005dc5ffffffffffffffffffffd16500000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000000006cebffffffffffffffff94000080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0000003db7ffffffe061000000000000000000006cd1ffffffffffffffffb9ffffffffffffffffd16b000000000000000000000000000000000000007cfbffffffffffffffffffffaf46000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000000006cebffffffffffffffff94000080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0000005cdbffffffbc4100000000000000000058bcffffffffffffffffa74ea8ffffffffffffffffbc57000000000000404040404040404040404040319fffffffffffffffffffffff90130000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a0080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff80404040404040404040404040404040404040400000004040404070ebffffffffffffffff94000080ffffffffffffffffff8000000000000000000080ffffffffffffffffd95a0000007dfdffffff9b1c000000000000000043a8ffffffffffffffffbc570058bcffffffffffffffffa7430000000080bfbfbfbfbfbfbfbfbfbfbfbfc0ffffffffffffffffffffffffec6f0000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffd95a0080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080bfbfbfbfebffffffffffffffffff93000080ffffffffffffffffff8040404040404040404080ffffffffffffffffd95a0000209ffffffff97a00000000000000002e94ffffffffffffffffd16b0000006bd1ffffffffffffffff942e00000080ffffffffffffffffffffffffffffffffffffffffffffffffffffb95000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd95a0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffff93000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffd95a000044bfffffffd758000000000000000080ffffffffffffffffff7f000000000080ffffffffffffffffff7f00000080ffffffffffffffffffffffffffffffffffffffffffffffffffffff9a2e00007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd6570080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c007dfcffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffff90000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd95a000065e4ffffffb339000000000000006cd1ffffffffffffffff932e00000000002e94ffffffffffffffffd16b000080fffffffffffffffffffffffffffffffffffffffffffffffffffffff87a000062ddffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffb13a0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620063ddffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080fffffffffffffffffffffffffff074000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffd657000786ffffffff921300000000000056bbffffffffffffffffa8430000000000000043a8ffffffffffffffffbb530080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffc457000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffb176000080ffffffffffffffffffffffffffffffffffffffffffffffffffffc0a45f000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb17600000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffb68440000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffb13a0029a8fffffff0710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffc0a45f00004cc6ffffffce50000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000001b96ffffffffffffffffff8000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb278000080ffffffffffffffffff80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc5c5c5c5a82d000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000000000000072efffffffffffffffffff800065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde620080ffffffffffffffffff800000000000000000000000000000000000000000000000000000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb278000038454646463e00000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000050baffffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffff80000000000000000000000000000000000000000000000000000065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde620000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000001d98ffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c000078b2ffffffffffffffffffffffffffffffac6a408bb8fff97b0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000075f3ffffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800064deffffffffffffffffffffffffffffffffffc184fffffff97a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000000053bdffffffffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff80007dfcffffffffffffffffffffffffffffffffffffbcfffffff97a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000002f9bffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080fffffffffffffffffffffffffffffffffffffffffffffff97a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000078f6ffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbffffffffff97a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000056c0ffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404096fffffff97a0080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8000000000100000000080ffffffffffffffffff800080ffffffffffffffffff800000329effffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80404040404040404040404040404040404034000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000001a9afffffff97a0080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff80000000378f3700000080ffffffffffffffffff800080ffffffffffffffffff8000007bfaffffffffffa2ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfb2780000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000001a9afffffff97a0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000007ffe7f00000080ffffffffffffffffff800080ffffffffffffffffff800059c4ffffffffff8c80ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde6400000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000001a9afffffff97a0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffff8000005bc7ffc75a000080ffffffffffffffffff800080ffffffffffffffffff803aa1ffffffffffaf4680ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c00000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404025000020404096fffffff97a0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffff800037a2ffffffa2370080ffffffffffffffffff800080ffffffffffffffffff807efdffffffffe2670080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8000000000000080ffffffffffffffffff8000000000000000000065808080808080808080600074f3ffffffffffffffffffbfbfbf4000209abfbffffffffff97a0080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfd9ffffffffffffffffffffb276000080ffffffffffffffffff80007efdfffffffd7e0080ffffffffffffffffff800080ffffffffffffffffff95c7ffffffffff8a0c0080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff8000000000000080ffffffffffffffffff8000000000000000000000000000000000000000000044abffffffffffffffffffffffbf400020a0fffffffffffff97a0080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040405fd9ffffffffffffffffcf5100000080ffffffffffffffffff8059c5ffffffffffc55980ffffffffffffffffff800080ffffffffffffffffffffffffffffffac42000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff8000000000000080ffffffffffffffffff800000000000000000000000000000000000000000000053adffffffffffffffffffffbf400020a0fffffffffffff97a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000039b3ffffffffffffffffef7000000080ffffffffffffffffff81a0ffffffffffffffa081ffffffffffffffffff800080ffffffffffffffffffffffffffffd06400000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffff8000000000000000000000000000000000000000000047afffffffffffffffffffffffbf400020a0fffffffffffff97a0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000001190ffffffffffffffffff8f10000080ffffffffffffffffffb2ffffffffa6ffffffffb2ffffffffffffffffff800080ffffffffffffffffffffffffffff870900000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffff8000000000000000000000000000000000000000000075f4ffffffffffffffffffbfbfbf4000209abfbfbfbfbfbfbf7b0080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000000000006decffffffffffffffffae30000080ffffffffffffffffffffffffffa043a0ffffffffffffffffffffffffff800080ffffffffffffffffffffffffffa93f0000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffff8000000000000000000000000000000000000000000080ffffffffffffffffff804040402500002040404040404040000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000000000000004ac4ffffffffffffffffcf50000080ffffffffffffffffffffffffc5590059c5ffffffffffffffffffffffff800080ffffffffffffffffffffffffcd61000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff8000000000000080ffffffffffffffffff8000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000024a3ffffffffffffffffef70000080fffffffffffffffffffffffd7e0000007efdffffffffffffffffffffff800080ffffffffffffffffffffffff8405000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff8000000000000080ffffffffffffffffff8040404040404040404040404040404040404040000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000007fffffffffffffffffff8f100080ffffffffffffffffffffffa23700000037a2ffffffffffffffffffffff800080ffffffffffffffffffffffa63b00000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000005cdaffffffffffffffffae300080ffffffffffffffffffffc75a00000000005ac7ffffffffffffffffffff800080ffffffffffffffffffffc95e0000000000000080ffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c00000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff804040404040404040400000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000003bb4ffffffffffffffffcf520080fffffffffffffffffffe7f000000000000007fffffffffffffffffffff800080ffffffffffffffffffff81020000000000000080ffffffffffffffffff800062ddffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620000000000007dfcffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbf7600000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000138effffffffffffffffef720080ffffffffffffffffffa3360000000000000038a3ffffffffffffffffff800080ffffffffffffffffffa338000000000000000080ffffffffffffffffff80000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffb176000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb1760000000000000063ddffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080fffffffffffffffffffffffffffffffffffff37400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffffff80007cfcfffffffffffffffffffffffffffffffffff070000000000000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb278000080ffffffffffffffffff800000000000000000108cffffffffffffffffef730080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb27800000000000000000000000080ffffffffffffffffff800000000000000000000000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb27800000000000000000000001a94ffffffffffffffffff941a000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000060cfffffffffffffffffffffffffffffffffffc75600000000000065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde620080ffffffffffffffffff80000000000000000030afffffffffffffffffcf4f0080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde64000000000000000000000080ffffffffffffffffff80000000000000000000000065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde620000000000000000000050c5ffffffffffffffffffc55000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000076b1ffffffffffffffffffffffffffffffaf70000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffff80000000000000000051cfffffffffffffffffae300080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c000000000000000000000080ffffffffffffffffff8000000000000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0000000000000000000080ffffffffffffffffffffff7f00000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000071f0ffffffffffffffff8f100080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000000003aafffffffffffffffffffffffaf3a000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000007ab3ffffffffffffffffffffffffffffffffffffffffb278000080ffffffffffffffffffffbfbfdaffffffdabfbfffffffffffffffffffff800080ffffffffffffffffff80000000000000001190ffffffffffffffffef70000080bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff8000000000000000000068e6ffffffffffffffffffffffe567000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800065dfffffffffffffffffffffffffffffffffffffffffffffde620080ffffffffffffffffff804040bfffffffbf404080ffffffffffffffffff800080ffffffffffffffffff800000000000000030afffffffffffffffffcf500000004040404040404040404040404040404040404080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff8000000000000000001a98ffffffffffffffffffffffffff97190000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff800080ffffffffffffffffff800000000000000051cfffffffffffffffffae300000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000050c5ffffffffffffffffffffffffffc5500000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff800080ffffffffffffffffff800000000000000071f0ffffffffffffffff8f100000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000080ffffffffffffffffffffffffffffff7f0000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080fffffffffffffffffff3bfbfbfbfffffffffffffffffffff800080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff800080ffffffffffffffffff800000000000001190ffffffffffffffffef70000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000003aafffffffffffffffffffffffffffffffaf3a00000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080fffffffffffffffff376404040408affffffffffffffffff800080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff800080ffffffffffffffffff8040404040404040adffffffffffffffffcf52000000000034404040404040404040404040404040404080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000068e6ffffffffffffffffffffffffffffffe56700000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080fffffffffffffffff2720000000d8dffffffffffffffffff800080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfdaffffffffffffffffffb2780000007ab3bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000001a98ffffffffffffffffffffffffffffffffff9719000000000000000000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080fffffffffffffffff1720000000e8dffffffffffffffffff800080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde640064dfffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000050c5ffffffffffffffffffffffffffffffffffc550000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080fffffffffffffffff1710000000e8effffffffffffffffff800080ffffffffffffffffff8000008080808080000080ffffffffffffffffff800080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffffb3ffffffffffffffffff7f000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080fffffffffffffffff0710000000f8effffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf61000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000003aafffffffffffffffffca5ccaffffffffffffffffaf3a0000000000000000000080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080fffffffffffffffff0700000000f8fffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfb17600000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000068e6ffffffffffffffff971a98ffffffffffffffffe5670000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffef70000000108fffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040404040330000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000001a98ffffffffffffffffe5670068e6ffffffffffffffff971900000000000000000080ffffffffffffffffffffbfbfbfbfbfbfd9ffffffffffffffffffffb276000080ffffffffffffffffef6f0000001090ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000050c5ffffffffffffffffaf3a003aafffffffffffffffffc55000000000000000000080ffffffffffffffffff804040404040405fd9ffffffffffffffffcf5100000080ffffffffffffffffee6f0000001190ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000080ffffffffffffffffff7f00000080ffffffffffffffffff7f00000000000000000080ffffffffffffffffff8000000000000039b3ffffffffffffffffef7000000080ffffffffffffffffee6e0000001191ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000003aafffffffffffffffffc55000000050c5ffffffffffffffffaf3a000000000000000080ffffffffffffffffff800000000000001190ffffffffffffffffff8f10000080ffffffffffffffffed6e0000001291ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040404040404000000040404040404040404080ffffffffffffffffff80404040404040404040000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000068e6ffffffffffffffff97190000001a98ffffffffffffffffe567000000000000000080ffffffffffffffffff80000000000000006decffffffffffffffffae30000080ffffffffffffffffed6d0000001292ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080bfbfbfbfbfbfbfbfbfffffffffffffffffffffffbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000001a98ffffffffffffffffe567000000000068e6ffffffffffffffff97190000000000000080ffffffffffffffffff80000000000000004ac4ffffffffffffffffcf50000080ffffffffffffffffec6d0000001392ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000050c5ffffffffffffffffaf3a00000000003aafffffffffffffffffc5500000000000000080ffffffffffffffffff800000000000000024a3ffffffffffffffffef70000080ffffffffffffffffec6c0000001393ffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c007dfcffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000080ffffffffffffffffff7f0000000000000080ffffffffffffffffff7f0000000000000080ffffffffffffffffff8000000000000000007fffffffffffffffffff8f100080ffffffffffffffffeb704040404091ffffffffffffffffff800062ddffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620063ddffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800038afffffffffffffffffc5500000000000000050c5ffffffffffffffffaf3900000000000080ffffffffffffffffff8000000000000000005cdaffffffffffffffffae300080ffffffffffffffffffebbfbfbfbfffffffffffffffffffff80000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffb176000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb17600000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80006ae6ffffffffffffffff9419000000000000001a95ffffffffffffffffe56700000000000080ffffffffffffffffff8000000000000000003bb4ffffffffffffffffcf520080ffffffffffffffffffffffffffffffffffffffffffffffff8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000138effffffffffffffffef72007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0053bbffffffffffffffffa8430000000000000043a8ffffffffffffffffbb55000000000000000000000080ffffffffffffffffff80000000000000000000000057c4ffffffffffffffffffffffffffffffffffffffffffffffffffffffff8000007ab3ffffffffffffffffffffffffffffffffffffffffb278000080ffffffffffffffffffffffffffffffffffffffffffffb2770000007ab3ffffffffffffffffffffffffffffffffffffffffffff800000000000007bf9ffffffffffffffff8500000000000000000000000000000000000000000000000000000000000000000000000062ddffffffffffffffffffffffffffffffffffffffffffffcf6200006bd1ffffffffffffffff942e00000000002e94ffffffffffffffffd16b00000000000000000000000080ffffffffffffffffff800000000000000000000000007af8ffffffffffffffffffffffffffffffffffffffffffffffffffffff800065dfffffffffffffffffffffffffffffffffffffffffffffde620080ffffffffffffffffffffffffffffffffffffffffffffffdd630065dfffffffffffffffffffffffffffffffffffffffffffffff800000000000007af9ffffffffffffffff860000000080ffffffffffffffffff8000000000000000001b96ffffffffffffffffff80000078b1ffffffffffffffffffffffffffffffffffffffffb1760000000080ffffffffffffffffff7f000000000080ffffffffffffffffff7f0000000000000000000000000080ffffffffffffffffff800000000000000000000000002e99ffffffffffffffffffffffffffffffffffffffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0080fffffffffffffffffffffffffffffffffffffffffffffffc7c007dfcffffffffffffffffffffffffffffffffffffffffffffff800000000000007af9ffffffffffffffff860000000080ffffffffffffffffff80000000000000000072efffffffffffffffffff800000000000000000000000000000000000000000000000000000000000002e94ffffffffffffffffd16b0000006cd1ffffffffffffffff932e0000000000000000000000000080ffffffffffffffffff80000000000000000000000000004fb7ffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800000000000007af9ffffffffffffffff860000000080ffffffffffffffffff800000000000000050baffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800000000043a8ffffffffffffffffbc570058bcffffffffffffffffa743000000000000000000000000000080ffffffffffffffffff8000000000000000000000000000006de9ffffffffffffffffffffffffc3bfbfbfbfbfbfbfbfbfbfbfbf800080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800000000000007af9ffffffffffffffff860000000080ffffffffffffffffff800000000000001d98ffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000058bcffffffffffffffffa74ea8ffffffffffffffffbc5700000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000108dffffffffffffffffffffffa83b404040404040404040404040000000404040404040404040404040404080ffffffffffffffffff800000404040404040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff8000000000000075f3ffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800000000000006bd1ffffffffffffffffb9ffffffffffffffffd16b0000000000000000000000000000000080ffffffffffffffffff8000000000000000000000000000000043acffffffffffffffffffffff85060000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff80000000000053bdffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800000000000000080ffffffffffffffffffffffffffffffffff7f000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000061cbffffffffffffffffffffd1650000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff80000000002f9bffffffffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf80000000000000002e94ffffffffffffffffffffffffffffff932e000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000281ffffffffffffffffffffffaf4600000000000000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff800000000078f6ffffffffffffffffffffffffff800080ffffffffffffffffff80404040404040404040404040404000000000000000000043a8ffffffffffffffffffffffffffa74300000000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000036a0ffffffffffffffffffffff9013000000000000000000000000404040404040404040404040404080ffffffffffffffffff800000003340404040404040404040404080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff8000000056c0ffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000000000000000058bcffffffffffffffffffffffbc570000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000000000000000000000056bfffffffffffffffffffffec6f000000000000000000000080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff80000076b1bfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff800000329effffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000000000000000006ad0ffffffffffffffffffd06a000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000000075f2ffffffffffffffffffffb9500000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800062cfffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff8000007bfaffffffffffa2ffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000000000000000001a99ffffffffffffffffff991a000000000000000000000000000000000000000d8cffffffffffffffffff8c0d0000000000000000000000000000000000001894ffffffffffffffffffffff9a2e00000000000000000080fffffffffffffffffffffffffffffffffffffffffffffffc7c007cfcffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff800059c4ffffffffff8c80ffffffffffffffffff800080ffffffffffffffffff80404040404040404040404040340000000000000000000000006bd0ffffffffffffffffffd06a000000000000000000000000000000000000006bd1ffffffffffffffffffd16b0000000000000000000000000000000000000049b2fffffffffffffffffffff87a00000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff803aa1ffffffffffaf4680ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfb2780000000000000000000058bcffffffffffffffffffffffbc57000000000000000000000000000000000058bcffffffffffffffffffffffbc570000000000000000000000000000000000000068e4ffffffffffffffffffffc45a000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfb176000080ffffffffffffffffffffbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff807efdffffffffe2670080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffde64000000000000000043a8ffffffffffffffffffffffffffa74300000000000000000000000000000043a8ffffffffffffffffffffffffffa7430000000000000000000000000000000000000a88ffffffffffffffffffffffa53b0000000000000080ffffffffffffffffff804040404040404040404040403300000080ffffffffffffffffff804040404080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffff95c7ffffffffff8a0c0080ffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c000000000000002e94ffffffffffffffffffffffffffffff942e000000000000000000000000002e94ffffffffffffffffffffffffffffff942e0000000000000000000000000000000000003ea7ffffffffffffffffffffff850600000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000000000007af9ffffffffffffffff860000000080ffffffffffffffffffffffffffffffac42000080ffffffffffffffffff800063ddffffffffffffffffffffffffffffffffffffffffffffff800000000000000080ffffffffffffffffffffffffffffffffff7f0000000000000000000000000080ffffffffffffffffffffffffffffffffff7f000000000000000000000000000000000000005dc5ffffffffffffffffffffd16500000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000080ffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000006b5f1900007af9ffffffffffffffff860000000080ffffffffffffffffffffffffffffd06400000080ffffffffffffffffff80000078b1bfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800000000000006cd1ffffffffffffffffb9ffffffffffffffffd16b00000000000000000000006cd1ffffffffffffffffb9ffffffffffffffffd16b000000000000000000000000000000000000007cfbffffffffffffffffffffaf46000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080de96560b7af9ffffffffffffffff860000000080ffffffffffffffffffffffffffff870900000080ffffffffffffffffff800000003340404040404040404040404080ffffffffffffffffff80000000000058bcffffffffffffffffa74ea8ffffffffffffffffbc5700000000000000000058bcffffffffffffffffa74ea8ffffffffffffffffbc57000000000000404040404040404040404040319fffffffffffffffffffffff90130000000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff804040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000080ffffc78a83ffffffffffffffffff860000000080ffffffffffffffffffffffffffa93f0000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000043a8ffffffffffffffffbc570058bcffffffffffffffffa7430000000000000043a8ffffffffffffffffbc570058bcffffffffffffffffa7430000000080bfbfbfbfbfbfbfbfbfbfbfbfc0ffffffffffffffffffffffffec6f0000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffffffffff860000000080ffffffffffffffffffffffffcd61000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000002e94ffffffffffffffffd16b0000006bd1ffffffffffffffff942e00000000002e94ffffffffffffffffd16b0000006bd1ffffffffffffffff942e00000080ffffffffffffffffffffffffffffffffffffffffffffffffffffb95000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffff860000000080ffffffffffffffffffffffff8405000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff8000000080ffffffffffffffffff7f000000000080ffffffffffffffffff7f000000000080ffffffffffffffffff7f000000000080ffffffffffffffffff7f00000080ffffffffffffffffffffffffffffffffffffffffffffffffffffff9a2e000080ffffffffffffffffffffffffffffffffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c007dfcffffffffffffffffffffffffffffffffffffffffffffff8000569be7ffffffffffffffffffffffff860000000080ffffffffffffffffffffffa63b00000000000080ffffffffffffffffff800000404040404040404040404040404080ffffffffffffffffff8000006cd1ffffffffffffffff932e00000000002e94ffffffffffffffffd16b0000006cd1ffffffffffffffff932e00000000002e94ffffffffffffffffd16b000080fffffffffffffffffffffffffffffffffffffffffffffffffffffff87a000080ffffffffffffffffffffffffffffffffffffffffffffffff800062ddffffffffffffffffffffffffffffffffffffffffffffde640063ddffffffffffffffffffffffffffffffffffffffffffffff8000002169a9f5ffffffffffffffffffff860000000080ffffffffffffffffffffc95e0000000000000080ffffffffffffffffff800080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800056bbffffffffffffffffa8430000000000000043a8ffffffffffffffffbb530056bbffffffffffffffffa8430000000000000043a8ffffffffffffffffbb530080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffc4570080ffffffffffffffffffffffffffffffffffffffffffffffff80000077b1ffffffffffffffffffffffffffffffffffffffffb27800000078b1ffffffffffffffffffffffffffffffffffffffffffff80000000003876b4ffffffffffffffffff840000000080ffffffffffffffffffff81020000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffa338000000000000000080ffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0000000000000000000000000000000080ffffffffffffffffff8000007ab3ffffffffffffffffffffffffffffffffffffffffb27800000078b2ffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000007ab3ffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000007ab3ffffffffffffffffffffffffffffffb278000080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000000000062ddffffffffffffffffffffffffffffffffffffffffffffcf620000000000000000000000000000000080ffffffffffffffffff800065dfffffffffffffffffffffffffffffffffffffffffffffde620064deffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000065dfffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000065dfffffffffffffffffffffffffffffffffffde620080ffffffffffffffffff800000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb27800000078b1ffffffffffffffffffffffffffffffffffffffffb176000000000000000000000000000000000080ffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c007dfcffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000007dfcffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000007dfcfffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffff80000065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde620000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c00007ab3ffffffffffffffffffffffffffffffffffffffffb278000000000000000000000000000000000080ffffffffffffffffff800080fffffffffffffffffff2bfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080bfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800065dfffffffffffffffffffffffffffffffffffffffffffffde620000000000000000000000000000000080ffffffffffffffffff800080fffffffffffffffff275404040408bffffffffffffffffff800080ffffffffffffffffff804040404080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff80000000000000000000000000000000000040404040404040404080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0000000000000000000000000000000080ffffffffffffffffff800080fffffffffffffffff0710000000f8effffffffffffffffff800080ffffffffffffffffff800000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffef6f0000001090ffffffffffffffffff800080ffffffffffffffffff800000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffed6e0000001291ffffffffffffffffff800080ffffffffffffffffff800000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000404040404040404040404040404080ffffffffffffffffff800000404040404040404040404040404080ffffffffffffffffff800080ffffffffffffffffec704040404090ffffffffffffffffff800080ffffffffffffffffff804040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80404040404040404040404040404000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800075f3ffffffffffffffffecbfbfbfbffffffffffffffffffff3750080ffffffffffffffffffffbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800045acffffffffffffffffffffffffffffffffffffffffffffa9430080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff80000052a9ffffffffffffffffffffffffffffffffffffffffa95000007cfcffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000040404040404040404080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800048afffffffffffffffffffffffffffffffffffffffffffffab450062cfffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080bfbfbfbfbfbfbfbfbffffffffffffffffffff374007fffffffffffffffffffffbfbfbfbfffffffffffffffffffff800076f4fffffffffffffffff2bfbfbfbffffffffffffffffffff374000076b1bfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffffffffffffffffffffffa9430070eeffffffffffffffff8e4040404080ffffffffffffffffff800080fffffffffffffffff275404040408bffffffffffffffffff800000003340404040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80404040404040404040404040404000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffffffffffffffffffffa950000050ceffffffffffffffffae3000000080ffffffffffffffffff800080fffffffffffffffff0710000000f8effffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080ffffffffffffffffffffffffffffffffffffab45002faeffffffffffffffffcf5000000080ffffffffffffffffff800080ffffffffffffffffef6f0000001090ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff8000000000000080bfbfbfbfbfbfbfbfbffffffffffffffffffff374000f8effffffffffffffffef7000000080ffffffffffffffffff800080ffffffffffffffffed6e0000001291ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000040404040404040404080ffffffffffffffffff80000070efffffffffffffffff8f10000080ffffffffffffffffff800080ffffffffffffffffec704040404090ffffffffffffffffff800000404040404040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff80404040404040404040404040404000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000050ceffffffffffffffffae30000080ffffffffffffffffff800080ffffffffffffffffffecbfbfbfbfffffffffffffffffffff800080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff80000030aeffffffffffffffffcf50000080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000108fffffffffffffffffef70000080ffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0080fffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffffffffffffffffffffffffffffffffff80007dfcffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000404040404040404040404040404080ffffffffffffffffff8000000070efffffffffffffffff8f100080ffffffffffffffffff800062ddffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffdc620080ffffffffffffffffffffffffffffffffffffffffffffffff800063ddffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff8000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff8000000052cfffffffffffffffffac300080ffffffffffffffffff80000078b1ffffffffffffffffffffffffffffffffffffffffb176000080ffffffffffffffffffffffffffffffffffffffffffffb277000080ffffffffffffffffffffffffffffffffffffffffffffffff80000078b1ffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80000062ddffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffb17600007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0000000000004dc1ffffffffffffffffb33e000000000000000000000000000000000000000080ffffffff85060000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff8000000000509abdffffffffffffffffffffffd95e0080ffffffffffffffffff8000000000000000000000000000000000000000000000000000000000000000000000000062ddffffffffffffffffffffffffffffffffffffffffffffcf620000000000000887fffffffffffffffff778000000000000000000000000000000000000000080ffffffff86060000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800000001a97ffffffffffffffffffffffffffd95a0080ffffffffffffffffff800000000080ffffffffffffffffff800000000000000000000000000000000000000000000078b1ffffffffffffffffffffffffffffffffffffffffb17600000000000000004ec1ffffffffffffffffb13e0000000000000000000000000000000000000080ffffffff86060000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff8000000037b6ffffffffffffffffffffffffffd95a0080ffffffffffffffffff800000000080ffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b89fffffffffffffffff4760000000000000000000000000000000000000080ffffffff86060000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800000003abaffffffffffffffffffffffffffd95a0080ffffffffffffffffff800000000080ffffffffffffffffff80000000000000000000000000000000000000000000007ab3ffffffffffffffffffffffffffffffffffffffffb27800000000000000000050c4ffffffffffffffffaf3b00000000000000000000000000000000000080ffffffff86060000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800000003abafffffffffffffffff5c5bfbfbfbf5e0080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000000000000000000000000000065dfffffffffffffffffffffffffffffffffffffffffffffde6200000000000000000e8cfffffffffffffffff2730000000000000000000000000000000000007dbab7b6b47f000000000000000000000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff804040404040404040404040404040000000003abaffffffffffffffffc54140404040250080ffffffffffffffffff800000000080ffffffffffffffffff800000000000000000000000000000000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c00000000000000000053c6ffffffffffffffffac390000000000000000000000000000000000003938363500000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000108fffffffffffffffffef710000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfffffffffffffffffffff800000000000000000000055c8ffffffffffffffffaa3700000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000000000000000000000000000080ffffffffffffffffff804040404080ffffffffffffffffff80000000000000000000001391ffffffffffffffffec6e00000000000000000000000000000000004040404040404040404040403400000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff8000000000000000000000000000000000004040bdffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000000000000000000000000000080ffffffffffffffffff800000000080ffffffffffffffffff80000000000000000000000057caffffffffffffffffa83500000000000000000000000000000080bfbfbfbfbfbfbfbfbfbfbfbfb278000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080bfbfdaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8040404040404040404040404040404040403400000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000000001593ffffffffffffffffea6c00000000000000000000000000000080ffffffffffffffffffffffffffde610080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfb278000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000000000059cdffffffffffffffffa63200000000000000000000000000007dfcfffffffffffffffffffffffffc7c0080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffde640080ffffffffffffffffff804040404080ffffffffffffffffff800000000000000000000000001896ffffffffffffffffe769000000000000000000000000000061ddffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffc54600000000000080ffffffffffffffffff800000000080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffffffbfbfbfbfffffffffffffffffffff80000000000000000000000000005cd8ffffffffffffffffa327000000000000000000000000000078b1bfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080bfbfdaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000000001b98ffffffffffffffffe56700000000000000000000000000000033404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff8000000000000000000000000000000000004040bdffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080fffffffffffffffffffffffffffffffffffffffffffffffc7c00000000000000000000000000005edbffffffffffffffffa124000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffcf6200000000000000000000000000001d9bffffffffffffffffe265000000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfb1760000000000000000000000000000000060ddffffffffffffffff9f220000000000000000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffc54600000000000080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff80404040404040404040404040330000000040404040404040404040404040409dffffffffffffffffdf610000404040404040404040404040404080ffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffc54140404040250080ffffffffffffffffff800000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080bfbfbfbfbfbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffff800000000000000000000000000000000000003abafffffffffffffffff5c5bfbfbfbf5e0080ffffffffffffffffff800000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000003abaffffffffffffffffffffffffffd95a0080ffffffffffffffffff800000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff8000000000000000000000000000000000000037b6ffffffffffffffffffffffffffd95a0080ffffffffffffffffff800000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff804040404040404040404040404040000080ffffffffffffffffffffffffffffffffffffffffffffffff800062ddffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000000001895ffffffffffffffffffffffffffd95a0080ffffffffffffffffff800000000080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c0080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffffffffffffffffffffffffffffffffffffffffffff80000078b1ffffffffffffffffffffffffffffffffffffffffb176000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff800000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000000000000000000000004d98bcffffffffffffffffffffffd95e0080ffffffffffffffffff800000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf620080ffffffffffffffffffffffffffffffffffffffffffffffff8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffb17600007dfcffffffffffffffffffffffffffffffffffffffffffffff8000000080ffffffffffffffffffffffffb78631000000000000008080808080000000000080808080800000000080ffffffffffffffffffffffffffe56b0080ffffffffffffffffffffffffffe56b0000000000000000000000013f000000000000003838000000000000000000000080ffffffffffffffffffffffffffff800080ffffffff800000000080ffffffff800000000080ffffffff8000000080ffffffff900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000063ddffffffffffffffffffffffffffffffffffffffffffffff8000000080fffffffffffffffffffffffffff27300000000000040bfffffffbf4000000040bfffffffbf4000000080ffffffffffffffffffffffffffe5660080ffffffffffffffffffffffffffe5660000000000000000000001809f400000000000319091330000000000000000000080ffffffffffffffffffffffffffff800080ffffffff800000000080ffffffff800000000080ffffffff8000000080ffffffff930000000000000000000000000000000000000000000000000000000000000000000000007ab3ffffffffffffffffffffffffffffffffffffffffffffffffffb27800000078b1ffffffffffffffffffffffffffffffffffffffffffff8000000080ffffffffffffffffffffffffffff9011000000004040bfffffffbf4040404040bfffffffbf4040000080ffffffffffffffffffffffffffe5660080ffffffffffffffffffffffffffe5660000000000000000000280ffff993d0000002d8bffff8e3300000000000000000080ffffffffffffffffffffffffffff800080ffffffff800000000080ffffffff800000000080ffffffff8000000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000065dfffffffffffffffffffffffffffffffffffffffffffffffffffffffde6200000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffff941400000080bfbfdaffffffdabfbfbfbfbfdaffffffdabfbf800080ffffffffffffffffffffffffffe5660080ffffffffffffffffffffffffffe56600000000000000000281ffffffff983c002e8bffffffff8f33000000000000000080ffffffffffffffffffffffffffff800080ffffffff800000000080ffffffff800000000080ffffffff8000000080ffffffff9400000000000000000000000000000000000000000000000000000000000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c00007ab3ffffffffffffffffffffffffffffffb278000080ffffffff800080bfbfbfbfebffffffffffffffffff941400000080ffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffffffbfbfbfbf680080bfbfbfbfffffffffffffffffffe566000000000000000381fffffffffff272005fc2ffffffffff8f330000000000000080bfbfbfbfbfbfbfbfbfbfbfbfbfbf800080ffffffff800000000080ffffffff800000000080ffffffff8000000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800065dfffffffffffffffffffffffffffffffffffde620080ffffffff8000004040404070ebffffffffffffffff941400000080ffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80404040400000004040404096ffffffffffffffffe5660000000000000381ffffffffffff8406000076d2ffffffffff90350000000000000040404040404040404040404040400000000000000000000000000000000000000000000000000000000000000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffbfbfdaffffffdabfbfffffffffffffffffffff80007dfcfffffffffffffffffffffffffffffffffffc7c0080ffffffff800000000000006cebffffffffffffffff941400000080ffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe56600000000000482ffffffffffff83060000000076d2ffffffffff903500000000000000000000000000000000000000000000005367675300000000656668000000005367675300000000008080650080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff804040bfffffffbf404080ffffffffffffffffff800080ffffffffffffffffffffffffffffffffffffff800080ffffffff800000000000006cebffffffffffffffff941400000080bfbfdaffffffdabfbfbfbfbfdaffffffdabfbf800080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe566000000000582ffffffffffff830500000000000075d2ffffffffff90350000000000000000000000000000000000000000000281e5e5810100003abde5c64600000281e5e5810100000040bfff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff800080bfbfbfbfbfbfbfbfbfffffffffffffffffffff800080bfbfbfbf800000000000006cebffffffffffffffff9414000000004040bfffffffbf4040404040bfffffffbf4040000080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe5660000000583ffffffffffff8104000000000000000074d2ffffffffff913500000000000000000000000000000000000000001392ffff921200004bcaffd75800001392ffff921200004040bfff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff80000040404040404040404080ffffffffffffffffff80000040404040000000000000006cebffffffffffffffff9140402500000040bfffffffbf4000000040bfffffffbf4000000080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe56600000683ffffffffffff81030000000000000000000074ceffffffffff91350000004040404040404040404040404040000024a3ffffa32300005cdbffe869000024a3ffffa3230080bfbfdaff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000000006cebffffffffffffffffffbfbf5e00000040bfffffffbf4000000040bfffffffbf4000000080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe566000684ffffffffffff800200000000000000000000000073ceffffffffff92380080bfbfbfbfbfbfbfbfbfbfbfbfbfbf800035b4ffffb33400006decfff97a000035b4ffffb3340080ffffffff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000000006cebffffffffffffffffffffd95a00000040bfffffffbf4000000040bfffffffbf4000000080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe566005fdfffffffffffa53f000000000000000000000000001594fffffffffff3730080ffffffffffffffffffffffffffff800045c4ffffc44500007efeffff8a0b0044c4ffffc4450080ffffffff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000000000000000000000000006cebffffffffffffffffffffd95a00004040bfffffffbf4040404040bfffffffbf4040000080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe56600007bfaffffffffff882d0000000000000000000000007bfaffffffffff8a2e0080ffffffffffffffffffffffffffff800056d5ffffd55500108fffffff9b1c0057d5ffffd5560080ffffffff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800040bfffffffbf400080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff80000040404040000000000000006cebffffffffffffffffffffd95a0080bfbfdaffffffdabfbfbfbfbfdaffffffdabfbf800080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe5660000007cfaffffffffff882d000000000000000000007cfaffffffffff8a2d000080ffffffffffffffffffffffffffff800067e6ffffe6660021a0ffffffac2d0067e6ffffe6670080bfbfbfbf800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000008080808080000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080bfbfbfbf800000000000006cebffffffffffffffffffbfbf5e0080ffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe566000000007cfbffffffffff892d00000000000000007cfaffffffffff8a2d00000080ffffffffffffffffffffffffffff800079f7fffff6780032afffffffc431007af7fffff679000040404040000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800000000000006cebffffffffffffffff914040250080ffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe56600000000007dfcffffffffff892d0000000000007cfaffffffffff8a2d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800000000000006cebffffffffffffffff941400000080ffffffffffffffffffffffffffffffffffffff800080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe5660000000000007efcffffffffff892d000000007cfaffffffffff8b2d000000000080ffffffffffffffffffffffffffff800080ffffffff80000000000000000000000000000000000000000000000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800000000000006cebffffffffffffffff941400000080bfbfdaffffffdabfbfbfbfbfdaffffffdabfbf800080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe566000000000000007efdffffffffff8a2e00007bfaffffffffff8b3100000000000080ffffffffffffffffffffffffffff800080ffffffff80000000000000000000000000000000000000000000000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800000000000006cebffffffffffffffff9414000000004040bfffffffbf4040404040bfffffffbf4040000080ffffffffffffffffff80000000000000000000001a9affffffffffffffffe56600000000000000007efdfffffffff2730060dfffffffffff8b310000000000000080ffffffffffffffffffffffffffff800080ffffffff80000000000000000000000000000000000040404040000080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff8000004040404070ebffffffffffffffff9414000000000040bfffffffbf4000000040bfffffffbf4000000080ffffffffffffffffff80404040400000004040404096ffffffffffffffffe5660000000000000000007ffeffffff9238000684ffffffff8b31000000000000000080ffffffffffffffffffffffffffff800080ffffffff800000000000000000000000000000000080bfbfbfbf800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8000000000000000000080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800080bfbfbfbfebffffffffffffffffff94140000000000008080808080000000000080808080800000000080ffffffffffffffffffffbfbfbfbf68007fbfbfbfbfffffffffffffffffffe566000000000000000000007ffeff91350000000684ffff8c3100000000000000000080ffffffffffffffffffffffffffff800080ffffffff800000000000000000000000000000000080ffffffff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff8040404040404040404080ffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800080ffffffffffffffffffffffffffff94140000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffe364007efeffffffffffffffffffffffffe56600000000000000000000007f9435000000000006858f310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffbfbfbfbfbfbfbfbfbfffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800080ffffffffffffffffffffffffffff90110000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffe262007dfcffffffffffffffffffffffffe56600000000000000000000000038000000000000000634000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffff800080ffffffff94000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000080ffffffffffffffffff800080ffffffff800080fffffffffffffffffffffffffff072000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffe161007cfbffffffffffffffffffffffffe56600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffff800080ffffffff9400000000000000000000000000000000000000000000000000000000000000000000007dfcfffffffffffffffffffffffffffffffffffffffffffffffffffffffc7c000000000000000000000080ffffffffffffffffff800080ffffffff800080ffffffffffffffffffffffffb6842d000000000000000000000000000000000000000000000000000080ffffffffffffffffffffffffffdf63007cfaffffffffffffffffffffffffe5690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffff93000000000000000000000000000000000000000000000000000000000000000000000062ddffffffffffffffffffffffffffffffffffffffffffffffffffffffcf62000000000000000000000080ffffffffffffffffff800080ffffffff80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078b1ffffffffffffffffffffffffffffffffffffffffffffffffffb17600000000000000000000000080ffffffffffffffffff800080ffffffff800060808080808080808080808080808065000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffff800080ffffffffffffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000323a0000000000000000000000000040000000000000000000000000000000000000000000000080ffffffffffffffffff800080ffffffff800080ffffffffffffffffffffffffffff8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000318d953500000000000000000000007ba445000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000318bffff90350000000000000000007cfaffa0440000000000000062bebababa961c0000000000000000000080ffffffff8000000000000080ffffffff8000000000667474747554000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000318effffffff9033000000000000007cfaffffff9f450000003e4d0160dfffffffa0202453000000000000000080ffffffff8000000000000080ffffffff8000000052c2f3f3f3af4400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000060c0ffffffffff8f3300000000007cfafffffffffe7e0000007fba806ae5ffffff9b5da1b6470000000000000080ffffffff8000000000000080ffffffff8000001693ffffffe96c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000072ceffffffffff8e330000007cfaffffffffff8d31000050bfffffbeffffffffc2dcffff880900000000000080ffffffff8000000000000080ffffffff80000065e1ffffff9a1e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000072ceffffffffff8d32007cfaffffffffff8c3100001492ffffffffffffffffffffffffc75900004040404080ffffffff8040404040000080bfbfbfbf80003cabffffffca58000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000073ceffffffffff8f7bfaffffffffff8c3100000061ddffffffffffffffffffffffffff9e0080bfbfbfbfffffffffffffbfbfbfbf8000004040404000005c8a8c8c8c750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000074cefffffffffffaffffffffff8b31000000004283c4ffffffffffffffffffffffa1630080ffffffffffffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000074d2ffffffffffffffffff8b31000000000000045cbbffffffffffffffffff913e000080ffffffffffffffffffffffffffff80000000000000000000000080806500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000074d2ffffffffffffff8a2d0000000000004179baffffffffffffffffffffff95570080ffffffffffffffffffffffffffff800000000000000000000040bfff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000075d2ffffffffff892d0000000000000064e2ffffffffffffffffffffffffffa10080bfbfbfbfffffffffffffbfbfbfbf800000404040400000004040bfff80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000076d2ffffff892d00000000000000001c99ffffffffffffffffffffffffcf6000004040404080ffffffff8040404040000080bfbfbfbf800080bfbfdaff8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000076d0ff892d0000000000000000000057c6ffffc2ffffffffc7e3ffff8f1100000000000080ffffffff8000000000000080ffffffff800080ffffffff8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000758a2d00000000000000000000000785be896de8ffffff9b64a9bd4d0000000000000080ffffffff8000000000000080ffffffff800080ffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045560a61dfffffffa0203b5d000000000000000080ffffffff8000000000000080ffffffff800080ffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000063c5c5c5c59b200000000000000000000080ffffffff8000000000000080ffffffff800080ffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000034454646463f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &1487152852435312068
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tokeely_Brookings SDF 1 Material
+  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 622550264040083980}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Diffuse: 0.5
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 1
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0
+    - _ScaleRatioB: 0
+    - _ScaleRatioC: 0
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _Sharpness: 0
+    - _SpecularPower: 2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 256
+    - _TextureWidth: 256
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_BuildTextureStacks: []
