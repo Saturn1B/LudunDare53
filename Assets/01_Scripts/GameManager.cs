@@ -22,11 +22,15 @@ public class GameManager : MonoBehaviour
 
     public ContractScriptable currentContract;
     public bool hasControl;
+    bool win;
     [SerializeField]
     GameObject LoosePanel, WinPanel;
 
     public void LooseGame()
     {
+        if (win)
+            return;
+
         FindObjectOfType<SimpleCarController>().Brake();
         hasControl = false;
         Time.timeScale = .4f;
@@ -36,6 +40,7 @@ public class GameManager : MonoBehaviour
 
     public void WinGame()
     {
+        win = true;
         FindObjectOfType<SimpleCarController>().Brake();
         hasControl = false;
         Time.timeScale = .4f;

@@ -18,6 +18,9 @@ public class SimpleCarController : MonoBehaviour
     public float maxSteeringAngle;
     public Rigidbody rb;
 
+    [SerializeField]
+    ParticleSystem flameBurst01, flameBurst02, hard01, hard02, soft01, soft02;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -30,6 +33,24 @@ public class SimpleCarController : MonoBehaviour
 
         float motor = maxMotorTorque * Input.GetAxis("Horizontal");
         float steering = maxSteeringAngle * Input.GetAxis("Vertical");
+
+        if(motor == 0)
+        {
+            if(!soft01.isPlaying && !soft02.isPlaying)
+            {
+                hard01.Stop();
+                hard02.Stop();
+                soft01.Play();
+                soft02.Play();
+            }
+        }
+        else
+        {
+            if(!hard01.isPlaying && !hard02.isPlaying)
+            {
+                StartCoroutine(MotorStartBurst());
+            }
+        }
 
         foreach (AxleInfo axleInfo in axleInfos)
         {
@@ -69,5 +90,16 @@ public class SimpleCarController : MonoBehaviour
             axleInfo.leftWheel.brakeTorque = 4000;
             axleInfo.rightWheel.brakeTorque = 4000;
         }
+    }
+
+    IEnumerator MotorStartBurst()
+    {
+        soft01.Stop();
+        soft02.Stop();
+        flameBurst01.Play();
+        flameBurst02.Play();
+        yield return new WaitForSeconds(.2f);
+        hard01.Play();
+        hard02.Play();
     }
 }
