@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6012750603347664173}
   - component: {fileID: 385301666303972115}
   m_Layer: 0
-  m_Name: Box1x1 1
+  m_Name: Box1x1 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0562335fa35615e479803b74265eea31, type: 2}
+  - {fileID: 2100000, guid: 15ad6322eaa450743a59f69c260ba7db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +109,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6012750603347664171}
-  m_Material: {fileID: 13400000, guid: 7c65ba8082982e847b228dc307d02ab7, type: 2}
+  m_Material: {fileID: 13400000, guid: 6fc0de0df3b4aa441805e55883f03a8d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
@@ -128,6 +128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0721b98f60436e49b06e7f693c65df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnimalBox: 0
-  waitMin: 0
-  waitMax: 0
+  AnimalBox: 1
+  waitMin: 3
+  waitMax: 8
