@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
-  m_Name: Contract02
+  m_Name: Contract05
   m_EditorClassIdentifier: 
-  contractTitle: 'Ore delivery : medium'
-  contractGain: 740
+  contractTitle: 'Ore delivery : heavy'
+  contractGain: 1200
   contractType: 1
   boxTypes:
   - boxName: MOA Ore
@@ -21,5 +21,6 @@ MonoBehaviour:
       type: 3}
     boxPos:
     - {x: 0, y: 0}
-    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0.5, y: 1}
   done: 0
