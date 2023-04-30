@@ -128,3 +128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0721b98f60436e49b06e7f693c65df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AnimalBox: 0
+  waitMin: 0
+  waitMax: 0
