@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour
         hasControl = false;
         Time.timeScale = .4f;
         currentContract.done = true;
+        PlayerPrefs.SetFloat("PlayerMoney", currentContract.contractGain);
         WinPanel.SetActive(true);
         WinPanel.transform.GetChild(1).GetComponent<TMPro.TMP_Text>().text += currentContract.contractGain + "€";
     }
