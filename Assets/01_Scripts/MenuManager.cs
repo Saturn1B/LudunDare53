@@ -5,7 +5,7 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField]
-    GameObject MainPanel, LevelPanel, CreditsPanel;
+    GameObject MainPanel, LevelPanel, CreditsPanel, OptionsPanel;
     [SerializeField]
     TMPro.TMP_Text moneyText;
     // Start is called before the first frame update
@@ -31,6 +31,12 @@ public class MenuManager : MonoBehaviour
     {
         MainPanel.SetActive(false);
         CreditsPanel.SetActive(true);
+    }
+
+    public void Options()
+    {
+        MainPanel.SetActive(false);
+        OptionsPanel.SetActive(true);
     }
 
     public void BackToMain(GameObject panelToClose)
