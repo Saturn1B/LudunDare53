@@ -80,18 +80,21 @@ public class GameManager : MonoBehaviour
                     }
                 }
             }
+
+            WinPanel.transform.GetChild(1).GetComponent<TMPro.TMP_Text>().text +=  "0€";
         }
         else
         {
             currentContract.hours = levelTimer.curruntHourTime;
             currentContract.mins = levelTimer.curruntMinTime;
             currentContract.secs = levelTimer.curruntTime;
+
+            PlayerPrefs.SetFloat("PlayerMoney", currentContract.contractGain);
+            WinPanel.transform.GetChild(1).GetComponent<TMPro.TMP_Text>().text += currentContract.contractGain + "€";
         }
 
         currentContract.done = true;
-        PlayerPrefs.SetFloat("PlayerMoney", currentContract.contractGain);
         WinPanel.SetActive(true);
-        WinPanel.transform.GetChild(1).GetComponent<TMPro.TMP_Text>().text += currentContract.contractGain + "€";
     }
 
     public void RestartScene()
