@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
   m_Name: Contract10
   m_EditorClassIdentifier: 
-  contractTitle: 'Ore delivery : heavy'
+  contractTitle: 'Fuel delivery : light'
   contractGain: 560
   contractType: 0
   boxTypes:
-  - boxName: 'MOA Ore : large'
-    boxPrefab: {fileID: 7965656950947664710, guid: 2d422535d58b67949870088bfe6cb4a0,
+  - boxName: Kobolt Superfuel
+    boxPrefab: {fileID: 6012750603347664171, guid: 06e862b1a2cbae341a7c2e6e936f8874,
       type: 3}
     boxPos:
     - {x: 0, y: 0}
