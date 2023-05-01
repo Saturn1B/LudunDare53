@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
+  m_Name: Contract15
+  m_EditorClassIdentifier: 
+  contractTitle: 'Group delivery : heavy fuel'
+  contractGain: 2000
+  contractType: 2
+  boxTypes:
+  - boxName: Kobolt  heavy Superfuel
+    boxPrefab: {fileID: 7965656950947664710, guid: c0310cd40b5b8434db50cdad173601c6,
+      type: 3}
+    boxPos:
+    - {x: 0, y: 0}
+  - boxName: MOA Ore
+    boxPrefab: {fileID: 6012750603347664171, guid: 23c67ac3209ed714d9a799bf7bdd5af3,
+      type: 3}
+    boxPos:
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+  done: 0
