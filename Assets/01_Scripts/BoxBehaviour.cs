@@ -19,6 +19,10 @@ public class BoxBehaviour : MonoBehaviour
     [SerializeField] AudioSource monsterSound;
     [SerializeField] AudioClip[] monsterSoundEffects;
 
+    [SerializeField] ParticleSystem explo01;
+    [SerializeField] ParticleSystem explo02;
+    [SerializeField] ParticleSystem explo03;
+
     Rigidbody rb;
 
     private void OnCollisionEnter(Collision collision)
@@ -32,11 +36,15 @@ public class BoxBehaviour : MonoBehaviour
 
         if (collision.transform.CompareTag("Ground"))
         {
-            //if (Ammo)
-            //{
-            //    FindObjectOfType<SimpleCarController>().gameObject.GetComponent<Rigidbody>().AddExplosionForce(100000, collision.transform.position, 100000);
-            //    transform.GetComponentInChildren<ParticleSystem>().Play();
-            //}
+            if (Ammo)
+            {
+                FindObjectOfType<SimpleCarController>().gameObject.GetComponent<Rigidbody>().AddExplosionForce(100000, collision.transform.position, 50000);
+                transform.GetComponentInChildren<ParticleSystem>().Play();
+                explo01.Play();
+                explo02.Play();
+                explo03.Play();
+                StartCoroutine(DestroyBullet());
+            }
             GameManager.Instance.LooseGame();
         }
     }
@@ -69,5 +77,11 @@ public class BoxBehaviour : MonoBehaviour
         Debug.Log("Shake");
 
         StartCoroutine(Shake());
+    }
+
+    IEnumerator DestroyBullet()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(this);
     }
 }
