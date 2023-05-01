@@ -1397,15 +1397,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1385331645825904142, guid: e5b46aeea0c30d84cbc04c43bf60f9e7,
         type: 3}
+      propertyPath: contracts.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d8b9dc9b0dfec984197cc0be110cdf26,
+        type: 2}
+    - target: {fileID: 1385331645825904142, guid: e5b46aeea0c30d84cbc04c43bf60f9e7,
+        type: 3}
       propertyPath: contracts.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 5108cad4262afbd459e0eafc55f33efd,
+      objectReference: {fileID: 11400000, guid: 50f48837c4b6015459a8386b94fd63d9,
         type: 2}
     - target: {fileID: 1385331645825904142, guid: e5b46aeea0c30d84cbc04c43bf60f9e7,
         type: 3}
       propertyPath: contracts.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 95d70209d31ff9a4cb1c3c3ae1d721cf,
+      objectReference: {fileID: 11400000, guid: 380dea6b69b84a6449704a870686d1fa,
         type: 2}
     - target: {fileID: 1385331645825904142, guid: e5b46aeea0c30d84cbc04c43bf60f9e7,
         type: 3}
