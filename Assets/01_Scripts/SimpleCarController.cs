@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 
 [System.Serializable]
 public class AxleInfo
@@ -17,6 +18,9 @@ public class SimpleCarController : MonoBehaviour
     public float maxMotorTorque;
     public float maxSteeringAngle;
     public Rigidbody rb;
+
+    public AudioSource idleSound;
+    public AudioSource throttleSound;
 
     [SerializeField]
     ParticleSystem flameBurst01, flameBurst02, hard01, hard02, soft01, soft02;
@@ -81,6 +85,7 @@ public class SimpleCarController : MonoBehaviour
     private void Update()
     {
         transform.position = new Vector3(0, transform.position.y, transform.position.z);
+        idleSound.pitch = Mathf.Abs(rb.velocity.z) / 100 + 1;
     }
 
     public void Brake()
@@ -98,6 +103,8 @@ public class SimpleCarController : MonoBehaviour
         soft02.Stop();
         flameBurst01.Play();
         flameBurst02.Play();
+        //if(!throttleSound.isPlaying)
+            //throttleSound.Play();
         yield return new WaitForSeconds(.2f);
         hard01.Play();
         hard02.Play();

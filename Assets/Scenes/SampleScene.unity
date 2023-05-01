@@ -366,6 +366,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box1x1 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6012750603347664171, guid: 32bdb7c9d4ec3954f9ace2783fdc6856,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012750603347664172, guid: 32bdb7c9d4ec3954f9ace2783fdc6856,
         type: 3}
       propertyPath: m_RootOrder
@@ -649,7 +654,7 @@ Transform:
   m_GameObject: {fileID: 1822322405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -675,11 +680,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 220721425935476884, guid: efe53991d13a0154f89dacebb69cce28,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 220721426346066404, guid: efe53991d13a0154f89dacebb69cce28,
         type: 3}
       propertyPath: m_RootOrder
@@ -906,6 +906,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EndTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363334598448279173, guid: 76f1d4bb873be4c439a2c0cba7e5be12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5363334598448279176, guid: 76f1d4bb873be4c439a2c0cba7e5be12,
         type: 3}
