@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour
             currentContract.mins = levelTimer.curruntMinTime;
             currentContract.secs = levelTimer.curruntTime;
 
-            PlayerPrefs.SetFloat("PlayerMoney", currentContract.contractGain);
+            PlayerPrefs.SetFloat("PlayerMoney", PlayerPrefs.HasKey("PlayerMoney") ? PlayerPrefs.GetFloat("PlayerMoney") + currentContract.contractGain : currentContract.contractGain);
             WinPanel.transform.GetChild(1).GetComponent<TMPro.TMP_Text>().text += currentContract.contractGain + "€";
         }
 

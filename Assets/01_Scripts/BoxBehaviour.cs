@@ -24,8 +24,11 @@ public class BoxBehaviour : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //collSound.clip = collSoundEffects[Random.Range(0, collSoundEffects.Length)];
-        collSound.pitch = Random.Range(0.7f, 1.3f);
-        collSound.Play();
+        if (collSound)
+        {
+            collSound.pitch = Random.Range(0.7f, 1.3f);
+            collSound.Play();
+        }
 
         if (collision.transform.CompareTag("Ground"))
         {
@@ -40,7 +43,8 @@ public class BoxBehaviour : MonoBehaviour
 
     private void Start()
     {
-        collSound.clip = collSoundEffects[0];
+        if (collSound)
+            collSound.clip = collSoundEffects[0];
         if (AnimalBox)
         {
             rb = GetComponent<Rigidbody>();

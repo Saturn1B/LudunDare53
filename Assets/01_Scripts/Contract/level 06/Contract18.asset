@@ -29,7 +29,7 @@ MonoBehaviour:
       type: 3}
     boxPos:
     - {x: 0, y: 0}
-  done: 1
+  done: 0
   hours: 0
   mins: 0
-  secs: 28.584673
+  secs: 0
