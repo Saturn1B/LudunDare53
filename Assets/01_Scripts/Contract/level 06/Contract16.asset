@@ -10,24 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
-  m_Name: Contract15
+  m_Name: Contract16
   m_EditorClassIdentifier: 
-  contractTitle: 'Group delivery : heavy fuel'
-  contractGain: 2000
-  contractType: 2
+  contractTitle: 'Fuel delivery : medium'
+  contractGain: 560
+  contractType: 0
   boxTypes:
-  - boxName: Kobolt  heavy Superfuel
+  - boxName: Kobolt heavy Superfuel
     boxPrefab: {fileID: 7965656950947664710, guid: c0310cd40b5b8434db50cdad173601c6,
       type: 3}
     boxPos:
-    - {x: -0.5, y: 0}
-    - {x: 0.5, y: 0}
-  - boxName: 'MOA Ore : large'
-    boxPrefab: {fileID: 7965656950947664710, guid: 2d422535d58b67949870088bfe6cb4a0,
-      type: 3}
-    boxPos:
-    - {x: 0, y: 1}
-  done: 1
+    - {x: 0, y: 0}
+  done: 0
   hours: 0
-  mins: 1
-  secs: 4.2623167
+  mins: 0
+  secs: 59.117245
