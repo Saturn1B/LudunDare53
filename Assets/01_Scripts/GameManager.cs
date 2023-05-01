@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
         hasControl = false;
         Time.timeScale = .4f;
         currentContract = null;
+        FindObjectOfType<LevelTimer>().isCounting = false;
         LoosePanel.SetActive(true);
     }
 
@@ -45,10 +46,48 @@ public class GameManager : MonoBehaviour
         if (loose)
             return;
 
+        LevelTimer levelTimer = FindObjectOfType<LevelTimer>();
+
         win = true;
-        FindObjectOfType<SimpleCarController>().Brake();
         hasControl = false;
         Time.timeScale = .4f;
+
+        FindObjectOfType<SimpleCarController>().Brake();
+        levelTimer.isCounting = false;
+        if (currentContract.done)
+        {
+            if(currentContract.hours > levelTimer.curruntHourTime)
+            {
+                currentContract.hours = levelTimer.curruntHourTime;
+                currentContract.mins = levelTimer.curruntMinTime;
+                currentContract.secs = levelTimer.curruntTime;
+            }
+            else if(currentContract.hours == levelTimer.curruntHourTime)
+            {
+                if (currentContract.mins > levelTimer.curruntMinTime)
+                {
+                    currentContract.hours = levelTimer.curruntHourTime;
+                    currentContract.mins = levelTimer.curruntMinTime;
+                    currentContract.secs = levelTimer.curruntTime;
+                }
+                else if (currentContract.mins == levelTimer.curruntMinTime)
+                {
+                    if (currentContract.secs > levelTimer.curruntTime)
+                    {
+                        currentContract.hours = levelTimer.curruntHourTime;
+                        currentContract.mins = levelTimer.curruntMinTime;
+                        currentContract.secs = levelTimer.curruntTime;
+                    }
+                }
+            }
+        }
+        else
+        {
+            currentContract.hours = levelTimer.curruntHourTime;
+            currentContract.mins = levelTimer.curruntMinTime;
+            currentContract.secs = levelTimer.curruntTime;
+        }
+
         currentContract.done = true;
         PlayerPrefs.SetFloat("PlayerMoney", currentContract.contractGain);
         WinPanel.SetActive(true);

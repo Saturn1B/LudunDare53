@@ -17,5 +17,6 @@ public class ContractButton : MonoBehaviour
         {
             GameObject box = Instantiate(boxToSpawn[i], new Vector3(0, 4 + placeToSpawn[i].y, 1.5f * placeToSpawn[i].x), boxToSpawn[i].transform.rotation);
         }
+        FindObjectOfType<LevelTimer>().isCounting = true;
     }
 }

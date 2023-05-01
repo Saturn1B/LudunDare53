@@ -43,11 +43,11 @@ public class ContractManager : MonoBehaviour
             go.GetComponent<ContractButton>().contract = contract;
             go.transform.GetChild(0).GetComponent<TMP_Text>().text = "CONTRACT " + '\n' + contract.contractTitle;
             go.transform.GetChild(3).GetComponent<TMP_Text>().text = "GAIN : " + contract.contractGain + "€";
-            if (!contract.done)
-            {
+            //if (!contract.done)
+            //{
                 go.transform.GetChild(4).gameObject.SetActive(false);
                 go.GetComponent<Button>().interactable = true;
-            }
+            //}
 
             if (Screen.width != 1920)
             {

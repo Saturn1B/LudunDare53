@@ -10,6 +10,10 @@ public class ContractScriptable : ScriptableObject
     public ContractType contractType;
     public BoxType[] boxTypes;
     public bool done;
+
+    public float hours;
+    public float mins;
+    public float secs;
 }
 
 public enum ContractType
