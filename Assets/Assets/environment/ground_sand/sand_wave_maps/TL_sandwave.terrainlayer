@@ -7,8 +7,8 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TL_sandwave
-  m_DiffuseTexture: {fileID: 0}
-  m_NormalMapTexture: {fileID: 0}
+  m_DiffuseTexture: {fileID: 2800000, guid: 313361dd099b21b4bb0f07851240795a, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: a26b31d828eff8747a05e189e5feb2ff, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 2, y: 2}
   m_TileOffset: {x: 0, y: 0}
