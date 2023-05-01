@@ -103,8 +103,8 @@ public class SimpleCarController : MonoBehaviour
         soft02.Stop();
         flameBurst01.Play();
         flameBurst02.Play();
-        //if(!throttleSound.isPlaying)
-            //throttleSound.Play();
+        if(!throttleSound.isPlaying )
+            throttleSound.Play();
         yield return new WaitForSeconds(.2f);
         hard01.Play();
         hard02.Play();

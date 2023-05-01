@@ -13,10 +13,20 @@ public class BoxBehaviour : MonoBehaviour
     [SerializeField]
     float waitMin, waitMax;
 
+    [SerializeField] AudioSource collSound;
+    [SerializeField] AudioClip[] collSoundEffects;
+
+    [SerializeField] AudioSource monsterSound;
+    [SerializeField] AudioClip[] monsterSoundEffects;
+
     Rigidbody rb;
 
     private void OnCollisionEnter(Collision collision)
     {
+        //collSound.clip = collSoundEffects[Random.Range(0, collSoundEffects.Length)];
+        collSound.pitch = Random.Range(0.7f, 1.3f);
+        collSound.Play();
+
         if (collision.transform.CompareTag("Ground"))
         {
             //if (Ammo)
@@ -30,6 +40,7 @@ public class BoxBehaviour : MonoBehaviour
 
     private void Start()
     {
+        collSound.clip = collSoundEffects[0];
         if (AnimalBox)
         {
             rb = GetComponent<Rigidbody>();
@@ -41,6 +52,10 @@ public class BoxBehaviour : MonoBehaviour
     {
         waitTime = Random.Range(waitMin, waitMax);
         yield return new WaitForSeconds(waitTime);
+
+        monsterSound.clip = monsterSoundEffects[Random.Range(0, monsterSoundEffects.Length)];
+        monsterSound.pitch = Random.Range(0.85f, 1.15f);
+        monsterSound.Play();
 
         float xPos = Random.Range(-4000, 4000);
         float yPos = Random.Range(2000, 5000);
