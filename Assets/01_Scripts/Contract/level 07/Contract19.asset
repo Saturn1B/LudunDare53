@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
   m_Name: Contract19
   m_EditorClassIdentifier: 
-  contractTitle: 'Ore delivery : small'
+  contractTitle: 'Ammo delivery '
   contractGain: 560
   contractType: 0
   boxTypes:
-  - boxName: 'MOA Ore : large'
-    boxPrefab: {fileID: 7965656950947664710, guid: 2d422535d58b67949870088bfe6cb4a0,
+  - boxName: ARK ammo crate
+    boxPrefab: {fileID: 6012750603347664171, guid: 32bdb7c9d4ec3954f9ace2783fdc6856,
       type: 3}
     boxPos:
     - {x: 0, y: 0}

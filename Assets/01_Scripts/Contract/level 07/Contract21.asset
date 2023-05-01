@@ -12,15 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cc7171a06a674a89228ddd981d778, type: 3}
   m_Name: Contract21
   m_EditorClassIdentifier: 
-  contractTitle: 'Ore delivery : heavy'
+  contractTitle: Hazardeous delivery
   contractGain: 1200
   contractType: 2
   boxTypes:
-  - boxName: MOA Ore
-    boxPrefab: {fileID: 6012750603347664171, guid: 23c67ac3209ed714d9a799bf7bdd5af3,
+  - boxName: Kobalt Superfuel
+    boxPrefab: {fileID: 6012750603347664171, guid: 06e862b1a2cbae341a7c2e6e936f8874,
       type: 3}
     boxPos:
+    - {x: -1, y: 0}
     - {x: 0, y: 0}
+  - boxName: ARK ammo crate
+    boxPrefab: {fileID: 6012750603347664171, guid: 32bdb7c9d4ec3954f9ace2783fdc6856,
+      type: 3}
+    boxPos:
     - {x: 1, y: 0}
-    - {x: 0.5, y: 1}
   done: 0
+  hours: 0
+  mins: 0
+  secs: 0
